@@ -1,0 +1,6 @@
+name: SHD
+pattern: ^(SHD)$
+description: ''
+tags:
+- Release Group
+tests: null

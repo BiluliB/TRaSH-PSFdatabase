@@ -1,0 +1,6 @@
+name: NoGroup
+pattern: NoGr(ou)?p
+description: ''
+tags:
+- Release Group
+tests: null

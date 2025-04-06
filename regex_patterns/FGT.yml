@@ -1,0 +1,6 @@
+name: FGT
+pattern: ^(FGT)$
+description: ''
+tags:
+- Release Group
+tests: null

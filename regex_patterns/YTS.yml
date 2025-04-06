@@ -1,0 +1,6 @@
+name: YTS
+pattern: ^(YTS(.(MX|LT|AG))?)$
+description: ''
+tags:
+- Release Group
+tests: null
