@@ -1,0 +1,6 @@
+name: 'AROMA'
+pattern: '^(AROMA)$'
+description: ''
+tags:
+- Release Group
+tests: []

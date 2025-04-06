@@ -1,0 +1,6 @@
+name: 'DepraveD'
+pattern: '^(DepraveD)$'
+description: ''
+tags:
+- Release Group
+tests: []
