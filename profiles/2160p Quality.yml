@@ -121,6 +121,8 @@ custom_formats:
   score: 10
 - name: Blu-ray
   score: 10
+- name: HDR
+  score: 10
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
