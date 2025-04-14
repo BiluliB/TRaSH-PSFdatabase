@@ -11,8 +11,8 @@ tags:
 - Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 200
-minScoreIncrement: 50
+upgradeUntilScore: 320
+minScoreIncrement: 10
 custom_formats:
 - name: TRaSH Remux Tier 01
   score: 175
