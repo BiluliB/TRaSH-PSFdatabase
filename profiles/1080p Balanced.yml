@@ -76,8 +76,6 @@ custom_formats:
   score: 65
 - name: 1080p Quality Tier 4
   score: 60
-- name: 720p
-  score: 60
 - name: 1080p Quality Tier 5
   score: 50
 - name: DVD Remux
