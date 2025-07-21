@@ -1,0 +1,50 @@
+name: German Web Tier 02
+description: "Second-tier German web release groups for streaming/web content"
+conditions:
+- name: VECTOR
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(VECTOR)$
+- name: MULTiPLEX
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(MULTiPLEX)$
+- name: SiXTYNiNE
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(SiXTYNiNE)$
+- name: Oergel
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(Oergel)$
+- name: 4SF
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(4SF)$
+- name: 4SF Aliases
+  negate: false
+  required: false
+  type: release_group
+  pattern: \b(4SJ)\b
+- name: ABJ
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(ABJ)$
+- name: WebDL
+  negate: false
+  required: false
+  type: source
+  source: 3
+- name: WebRip
+  negate: false
+  required: false
+  type: source
+  source: 4
+tests: []
+includeCustomFormatWhenRenaming: false

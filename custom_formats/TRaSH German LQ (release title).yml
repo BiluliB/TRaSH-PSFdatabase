@@ -1,0 +1,20 @@
+name: German LQ (release title)
+description: "Matches low-quality German releases with specific problematic patterns"
+conditions:
+- name: TVS iTunesHD
+  negate: false
+  required: false
+  type: release_title
+  pattern: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
+- name: Jellyfin-Plex
+  negate: false
+  required: false
+  type: release_title
+  pattern: Jellyfin-Plex$
+- name: Double German Tag
+  negate: false
+  required: false
+  type: release_title
+  pattern: '[._-]German[._-].+?[._-]?German$'
+tests: []
+includeCustomFormatWhenRenaming: false

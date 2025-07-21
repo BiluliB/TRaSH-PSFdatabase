@@ -1,0 +1,25 @@
+name: German Remux Tier 02
+description: "Second-tier German remux release groups with high quality standards"
+conditions:
+- name: MULTiPLEX
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(MULTiPLEX)$
+- name: HQC
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(HQC)$
+- name: HDSource
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(HDSource)$
+- name: Remux
+  negate: false
+  required: true
+  type: source
+  source: 7
+tests: []
+includeCustomFormatWhenRenaming: false

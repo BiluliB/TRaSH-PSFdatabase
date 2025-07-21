@@ -1,0 +1,40 @@
+name: German Web Tier 03
+description: "Third-tier German web release groups for streaming/web content"
+conditions:
+- name: RobertDeNiro
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(RobertDeNiro)$
+- name: BALENCiAGA
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(BALENCiAGA)$
+- name: HQC
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(HQC)$
+- name: HDSource
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(HDSource)$
+- name: iNCEPTION
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(iNCEPTION)$
+- name: WebDL
+  negate: false
+  required: false
+  type: source
+  source: 3
+- name: WebRip
+  negate: false
+  required: false
+  type: source
+  source: 4
+tests: []
+includeCustomFormatWhenRenaming: false
