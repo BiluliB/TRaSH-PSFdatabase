@@ -1,0 +1,25 @@
+name: German DL (undefined)
+description: "Matches German dual/multi-language releases with DL or ML tags"
+conditions:
+- name: NOT Original Language
+  negate: true
+  required: true
+  type: language
+  language: original
+- name: German
+  negate: false
+  required: true
+  type: language
+  language: german
+- name: DL
+  negate: false
+  required: false
+  type: release_title
+  pattern: (?<!WEB[-_. ]?)\b(DL)\b
+- name: ML
+  negate: false
+  required: false
+  type: release_title
+  pattern: \b(ML)\b
+tests: []
+includeCustomFormatWhenRenaming: false

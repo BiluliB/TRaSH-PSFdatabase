@@ -1,0 +1,20 @@
+name: Not German or English
+description: "Excludes releases that are neither German nor English language"
+conditions:
+- name: Not English Language
+  negate: true
+  required: true
+  type: language
+  language: english
+- name: Not German Language
+  negate: true
+  required: true
+  type: language
+  language: german
+- name: Not German in Title
+  negate: true
+  required: true
+  type: release_title
+  pattern: (?i)\bgerman\b
+tests: []
+includeCustomFormatWhenRenaming: false

@@ -1,0 +1,20 @@
+name: German DL 2
+description: "Matches German-English dual audio releases without DL tags in title"
+conditions:
+- name: NOT German DL
+  negate: true
+  required: true
+  type: release_title
+  pattern: (?i)german\s*\.?dl|(?<=\bGerman\b.*)(?<!\bWEB[-_. ])\bDL\b|\[DE\+[a-z]{2}\]|\[[a-z]{2}\+DE\]|ger,\s*[a-z]{3}\]|\[[a-z]{3}\s*,\s*ger\]
+- name: German
+  negate: false
+  required: true
+  type: language
+  language: german
+- name: English
+  negate: false
+  required: true
+  type: language
+  language: english
+tests: []
+includeCustomFormatWhenRenaming: false

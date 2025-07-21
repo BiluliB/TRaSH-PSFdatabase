@@ -1,0 +1,15 @@
+name: German DL
+description: "Matches releases with both German and original language audio tracks"
+conditions:
+- name: German
+  negate: false
+  required: true
+  type: language
+  language: german
+- name: Original Language
+  negate: false
+  required: true
+  type: language
+  language: original
+tests: []
+includeCustomFormatWhenRenaming: true

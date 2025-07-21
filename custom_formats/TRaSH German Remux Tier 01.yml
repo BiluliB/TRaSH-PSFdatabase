@@ -1,0 +1,35 @@
+name: German Remux Tier 01
+description: "Top-tier German remux release groups with highest quality standards"
+conditions:
+- name: TvR
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(TvR)$
+- name: pmHD
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(pmHD)$
+- name: NIMA4K
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(NIMA4K)$
+- name: QfG
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(QfG)$
+- name: TSCC
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(TSCC)$
+- name: Remux
+  negate: false
+  required: true
+  type: source
+  source: 7
+tests: []
+includeCustomFormatWhenRenaming: false

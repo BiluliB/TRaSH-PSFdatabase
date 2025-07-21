@@ -1,0 +1,30 @@
+name: German Microsized
+description: "Matches German release groups known for extremely small file sizes"
+conditions:
+- name: FuN
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(FuN)$
+- name: w00t
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(w00t)$
+- name: GTF
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(GTF)$
+- name: PaTroL
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(PaTroL)$
+- name: JellyfinPlex
+  negate: false
+  required: false
+  type: release_group
+  pattern: ^(JellyfinPlex)$
+tests: []
+includeCustomFormatWhenRenaming: false
