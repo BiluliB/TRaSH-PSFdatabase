@@ -1,0 +1,58 @@
+name: German
+description: "Matches German language releases excluding dual/multi-language and subbed versions. Prioritizes native German audio over original language with German subs."
+conditions:
+- name: German
+  negate: false
+  required: true
+  type: language
+  language: german
+- name: NOT Original
+  negate: true
+  required: true
+  type: language
+  language: original
+- name: DL
+  negate: true
+  required: true
+  type: release_title
+  pattern: (?<!WEB[-_. ]?)\b(DL)\b
+- name: ML
+  negate: true
+  required: true
+  type: release_title
+  pattern: \b(ML)\b
+- name: Not Subbed
+  negate: true
+  required: true
+  type: release_title
+  pattern: (?=.*(German|Ger))(?=.*(Sub|Multi(ple)?Sub))
+tests:
+  - name: "German audio release"
+    release_title: "Movie.2024.1080p.BluRay.x264-GROUP"
+    language: "german"
+    expected: true
+  - name: "German WEB-DL (allowed)"
+    release_title: "Movie.2024.1080p.WEB-DL.x264-GROUP"
+    language: "german"
+    expected: true
+  - name: "Dual language release (rejected)"
+    release_title: "Movie.2024.1080p.BluRay.DL.x264-GROUP"
+    language: "german"
+    expected: false
+  - name: "Multi-language release (rejected)"
+    release_title: "Movie.2024.1080p.BluRay.ML.x264-GROUP"
+    language: "german"
+    expected: false
+  - name: "German with subs (rejected)"
+    release_title: "Movie.2024.1080p.BluRay.German.Sub.x264-GROUP"
+    language: "german"
+    expected: false
+  - name: "Original language (rejected)"
+    release_title: "Movie.2024.1080p.BluRay.x264-GROUP"
+    language: "original"
+    expected: false
+  - name: "English release (rejected)"
+    release_title: "Movie.2024.1080p.BluRay.x264-GROUP"
+    language: "english"
+    expected: false
+includeCustomFormatWhenRenaming: true
