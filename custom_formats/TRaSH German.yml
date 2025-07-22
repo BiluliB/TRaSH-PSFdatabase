@@ -5,12 +5,12 @@ conditions:
   negate: false
   required: true
   type: language
-  language: german
+  value: 4
 - name: NOT Original
   negate: true
   required: true
   type: language
-  language: original
+  value: -2
 - name: DL
   negate: true
   required: true
