@@ -11,12 +11,8 @@
     "upgradesAllowed": true,
     "minCustomFormatScore": 0,
     "upgradeUntilScore": 320,
-    "minScoreIncrement": 1,
+    "minScoreIncrement": 25,
     "custom_formats": [
-      {
-        "name": "1080p",
-        "score": 220
-      },
       {
         "name": "Disney+",
         "score": 220
@@ -62,12 +58,32 @@
         "score": 200
       },
       {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
         "name": "1080p Balanced Tier 1",
         "score": 170
       },
       {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
         "name": "1080p Balanced Tier 2",
         "score": 160
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
+      },
+      {
+        "name": "1080p",
+        "score": 100
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
       },
       {
         "name": "1080p Quality Tier 1",
@@ -86,16 +102,24 @@
         "score": 90
       },
       {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
         "name": "1080p Quality Tier 2",
         "score": 80
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
       },
       {
         "name": "1080p Quality Tier 3",
         "score": 70
       },
       {
-        "name": "1080p Golden Popcorn",
-        "score": 60
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p Quality Tier 4",
@@ -108,10 +132,6 @@
       {
         "name": "DVD Remux",
         "score": 40
-      },
-      {
-        "name": "SD Golden Popcorn",
-        "score": 30
       },
       {
         "name": "SD Quality Tier 1",
@@ -162,19 +182,31 @@
         "score": 6
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "2160p",
         "score": -9999
       },
       {
         "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "720p Golden Popcorn",
         "score": -9999
       },
       {
@@ -202,22 +234,6 @@
         "score": -9999
       },
       {
-        "name": "Full Disc (Quality Match)",
-        "score": -9999
-      },
-      {
-        "name": "h265",
-        "score": -9999
-      },
-      {
-        "name": "h265 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "HDR",
-        "score": -9999
-      },
-      {
         "name": "HDR10",
         "score": -9999
       },
@@ -234,23 +250,11 @@
         "score": -9999
       },
       {
-        "name": "Remux",
-        "score": -9999
-      },
-      {
         "name": "SD Bluray Encodes",
         "score": -9999
       },
       {
         "name": "Upscaled",
-        "score": -9999
-      },
-      {
-        "name": "x265",
-        "score": -9999
-      },
-      {
-        "name": "x265 (Missing)",
         "score": -9999
       }
     ],
@@ -275,10 +279,41 @@
         ]
       },
       {
+        "id": -4,
+        "name": "720p fallback",
+        "description": "",
+        "qualities": [
+          {
+            "id": 13,
+            "name": "Bluray-720p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          },
+          {
+            "id": 16,
+            "name": "HDTV-720p"
+          }
+        ]
+      },
+      {
         "id": -2,
         "name": "SD",
         "description": "SD Fallbacks",
         "qualities": [
+          {
+            "id": 17,
+            "name": "Bluray-576p"
+          },
+          {
+            "id": 18,
+            "name": "Bluray-480p"
+          },
           {
             "id": 19,
             "name": "WEBDL-480p"
@@ -290,10 +325,6 @@
           {
             "id": 22,
             "name": "DVD"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
           }
         ]
       },
@@ -343,7 +374,7 @@
     "upgradesAllowed": true,
     "minCustomFormatScore": 0,
     "upgradeUntilScore": 320,
-    "minScoreIncrement": 1,
+    "minScoreIncrement": 10,
     "custom_formats": [
       {
         "name": "UHD Bluray",
@@ -352,6 +383,18 @@
       {
         "name": "UHD Bluray (Missing)",
         "score": 350
+      },
+      {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
       },
       {
         "name": "1080p Golden Popcorn",
@@ -370,12 +413,28 @@
         "score": 100
       },
       {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
         "name": "1080p Quality Tier 4",
         "score": 90
       },
       {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
         "name": "1080p Quality Tier 5",
         "score": 80
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p",
@@ -522,6 +581,26 @@
         "score": 6
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "x265",
         "score": -90
       },
@@ -531,10 +610,6 @@
       },
       {
         "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
         "score": -9999
       },
       {
@@ -623,6 +698,29 @@
         ]
       },
       {
+        "id": -3,
+        "name": "720p fallback",
+        "description": "",
+        "qualities": [
+          {
+            "id": 13,
+            "name": "Bluray-720p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          },
+          {
+            "id": 16,
+            "name": "HDTV-720p"
+          }
+        ]
+      },
+      {
         "id": -2,
         "name": "SD",
         "description": "SD Fallbacks",
@@ -666,23 +764,47 @@
     "upgradesAllowed": true,
     "minCustomFormatScore": 0,
     "upgradeUntilScore": 320,
-    "minScoreIncrement": 1,
+    "minScoreIncrement": 10,
     "custom_formats": [
       {
-        "name": "1080p Golden Popcorn",
-        "score": 160
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
+      },
+      {
+        "name": "1080p",
+        "score": 100
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
       },
       {
         "name": "1080p Quality Tier 1",
         "score": 80
       },
       {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
         "name": "1080p Quality Tier 2",
         "score": 70
       },
       {
-        "name": "1080p",
-        "score": 60
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p Quality Tier 3",
@@ -741,12 +863,12 @@
         "score": 30
       },
       {
-        "name": "SD Golden Popcorn",
+        "name": "SD Quality Tier 1",
         "score": 30
       },
       {
-        "name": "SD Quality Tier 1",
-        "score": 30
+        "name": "Free100",
+        "score": 25
       },
       {
         "name": "Hulu",
@@ -817,19 +939,31 @@
         "score": 6
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "2160p",
         "score": -9999
       },
       {
         "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "720p Golden Popcorn",
         "score": -9999
       },
       {
@@ -854,10 +988,6 @@
       },
       {
         "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
         "score": -9999
       },
       {
@@ -930,25 +1060,25 @@
         ]
       },
       {
-        "id": -2,
-        "name": "SD",
-        "description": "SD Fallbacks",
+        "id": -3,
+        "name": "720p fallback",
+        "description": "",
         "qualities": [
           {
-            "id": 19,
-            "name": "WEBDL-480p"
+            "id": 13,
+            "name": "Bluray-720p"
           },
           {
-            "id": 20,
-            "name": "WEBRip-480p"
+            "id": 14,
+            "name": "WEBDL-720p"
           },
           {
-            "id": 22,
-            "name": "DVD"
+            "id": 15,
+            "name": "WEBRip-720p"
           },
           {
-            "id": 24,
-            "name": "SDTV"
+            "id": 16,
+            "name": "HDTV-720p"
           }
         ]
       }
@@ -960,6 +1090,402 @@
     },
     "language": "must_original",
     "_id": "1080p Quality"
+  },
+  {
+    "name": "1080p Remux German",
+    "description": "1080p Remux German utilizes **audio tags** and **German language preferences** to prioritise high quality lossless copies of HD Blu-rays with German audio.\n\n- Unlike the encode profiles, which target releases based on a release group metric, 1080p Remux German avoids this to stop *circular downloads* where no discernable upgrade is found. \n- Instead, audio metrics such TrueHD, Atmos, DTS-X, etc are used to indicate when a remux should be upgraded.\n- German dual language and German-only releases are prioritized for German content.\n- This also helps to grab non group tagged remuxes, which are fairly common on quite a few trackers who often have the best remux available. \n- If no 1080p Remux cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release can be found, the profile will fall back to SD releases - DVD remuxes / encodes.",
+    "tags": [
+      "1080p",
+      "Remux",
+      "German",
+      "Lossless Audio",
+      "h264"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 350,
+    "minScoreIncrement": 1,
+    "custom_formats": [
+      {
+        "name": "TRaSH German Remux Tier 01",
+        "score": 200
+      },
+      {
+        "name": "TRaSH German Remux Tier 02",
+        "score": 190
+      },
+      {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
+      },
+      {
+        "name": "TRaSH German Remux Tier 03",
+        "score": 140
+      },
+      {
+        "name": "TRaSH German Remux Tier 04",
+        "score": 130
+      },
+      {
+        "name": "TRaSH German Remux Tier 05",
+        "score": 120
+      },
+      {
+        "name": "TRaSH German Remux Tier 06",
+        "score": 110
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
+      },
+      {
+        "name": "1080p",
+        "score": 60
+      },
+      {
+        "name": "Blu-ray Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-X",
+        "score": 60
+      },
+      {
+        "name": "Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-HD MA",
+        "score": 50
+      },
+      {
+        "name": "TrueHD",
+        "score": 50
+      },
+      {
+        "name": "TrueHD (Missing)",
+        "score": 50
+      },
+      {
+        "name": "DVD Remux",
+        "score": 40
+      },
+      {
+        "name": "TRaSH German DL",
+        "score": 35
+      },
+      {
+        "name": "TRaSH German 1080p Booster",
+        "score": 35
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 30
+      },
+      {
+        "name": "Apple TV+",
+        "score": 30
+      },
+      {
+        "name": "Disney+",
+        "score": 30
+      },
+      {
+        "name": "FLAC",
+        "score": 30
+      },
+      {
+        "name": "Movies Anywhere",
+        "score": 30
+      },
+      {
+        "name": "TRaSH German DL 2",
+        "score": 25
+      },
+      {
+        "name": "TRaSH German",
+        "score": 25
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "HBO Max",
+        "score": 20
+      },
+      {
+        "name": "Max",
+        "score": 20
+      },
+      {
+        "name": "Netflix",
+        "score": 20
+      },
+      {
+        "name": "Paramount+",
+        "score": 20
+      },
+      {
+        "name": "Peacock",
+        "score": 20
+      },
+      {
+        "name": "TRaSH German DL (undefined)",
+        "score": 15
+      },
+      {
+        "name": "Atmos",
+        "score": 10
+      },
+      {
+        "name": "Atmos (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Hulu",
+        "score": 10
+      },
+      {
+        "name": "iTunes",
+        "score": 10
+      },
+      {
+        "name": "iTunes (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Roku",
+        "score": 10
+      },
+      {
+        "name": "Special Edition",
+        "score": 10
+      },
+      {
+        "name": "Repack3",
+        "score": 8
+      },
+      {
+        "name": "Repack2",
+        "score": 7
+      },
+      {
+        "name": "Repack1",
+        "score": 6
+      },
+      {
+        "name": "Unknown Lossless Audio",
+        "score": 5
+      },
+      {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "TRaSH German LQ (release title)",
+        "score": -25
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
+        "name": "TRaSH German Microsized",
+        "score": -75
+      },
+      {
+        "name": "TRaSH Not German or English",
+        "score": -100
+      },
+      {
+        "name": "2160p",
+        "score": -9999
+      },
+      {
+        "name": "3D",
+        "score": -9999
+      },
+      {
+        "name": "AV1",
+        "score": -9999
+      },
+      {
+        "name": "B&W",
+        "score": -9999
+      },
+      {
+        "name": "Blu-ray",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision (Without Fallback)",
+        "score": -9999
+      },
+      {
+        "name": "Extras",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc",
+        "score": -9999
+      },
+      {
+        "name": "h265",
+        "score": -9999
+      },
+      {
+        "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR",
+        "score": -9999
+      },
+      {
+        "name": "HDR10",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10+",
+        "score": -9999
+      },
+      {
+        "name": "Non Retail HDR",
+        "score": -9999
+      },
+      {
+        "name": "UHDBits",
+        "score": -9999
+      },
+      {
+        "name": "Unwanted Remux Groups",
+        "score": -9999
+      },
+      {
+        "name": "Upscaled",
+        "score": -9999
+      },
+      {
+        "name": "VVC",
+        "score": -9999
+      },
+      {
+        "name": "WEBRip",
+        "score": -9999
+      },
+      {
+        "name": "x264",
+        "score": -9999
+      },
+      {
+        "name": "x265",
+        "score": -9999
+      }
+    ],
+    "qualities": [
+      {
+        "id": 8,
+        "name": "Remux-1080p"
+      },
+      {
+        "id": 9,
+        "name": "WEBDL-1080p"
+      },
+      {
+        "id": -2,
+        "name": "720p fallback",
+        "description": "",
+        "qualities": [
+          {
+            "id": 13,
+            "name": "Bluray-720p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          },
+          {
+            "id": 16,
+            "name": "HDTV-720p"
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "name": "SD",
+        "description": "Standard Definition Fallbacks",
+        "qualities": [
+          {
+            "id": 22,
+            "name": "DVD"
+          },
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          },
+          {
+            "id": 24,
+            "name": "SDTV"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": 8,
+      "name": "Remux-1080p",
+      "description": "1080p Blu-ray disc content remuxed into a playable file format"
+    },
+    "language": "must_original",
+    "_id": "1080p Remux German"
   },
   {
     "name": "1080p Remux",
@@ -975,6 +1501,34 @@
     "upgradeUntilScore": 350,
     "minScoreIncrement": 1,
     "custom_formats": [
+      {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
+      },
       {
         "name": "1080p",
         "score": 60
@@ -1096,15 +1650,31 @@
         "score": 5
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "2160p",
         "score": -9999
       },
       {
         "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
         "score": -9999
       },
       {
@@ -1133,10 +1703,6 @@
       },
       {
         "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
         "score": -9999
       },
       {
@@ -1206,6 +1772,29 @@
         "name": "WEBDL-1080p"
       },
       {
+        "id": -2,
+        "name": "720p fallback",
+        "description": "",
+        "qualities": [
+          {
+            "id": 13,
+            "name": "Bluray-720p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          },
+          {
+            "id": 16,
+            "name": "HDTV-720p"
+          }
+        ]
+      },
+      {
         "id": -1,
         "name": "SD",
         "description": "Standard Definition Fallbacks",
@@ -1266,6 +1855,14 @@
         "score": 240
       },
       {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
         "name": "Amazon Prime [2160p]",
         "score": 160
       },
@@ -1283,6 +1880,10 @@
       },
       {
         "name": "Apple TV+ [2160p]",
+        "score": 150
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
         "score": 150
       },
       {
@@ -1312,6 +1913,22 @@
       {
         "name": "Roku [2160p]",
         "score": 150
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p",
@@ -1486,6 +2103,26 @@
         "score": 5
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "SDR",
         "score": -80
       },
@@ -1523,10 +2160,6 @@
       },
       {
         "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
         "score": -9999
       },
       {
@@ -1617,29 +2250,6 @@
             "name": "WEBDL-1080p"
           }
         ]
-      },
-      {
-        "id": -1,
-        "name": "SD",
-        "description": "Standard Definition Fallbacks",
-        "qualities": [
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -1703,6 +2313,14 @@
         "score": 230
       },
       {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 164
+      },
+      {
         "name": "Amazon Prime [2160p]",
         "score": 160
       },
@@ -1720,6 +2338,10 @@
       },
       {
         "name": "Apple TV+ [2160p]",
+        "score": 150
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
         "score": 150
       },
       {
@@ -1749,6 +2371,22 @@
       {
         "name": "Roku [2160p]",
         "score": 150
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p",
@@ -1923,6 +2561,26 @@
         "score": 5
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "SDR",
         "score": -80
       },
@@ -1964,10 +2622,6 @@
       },
       {
         "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
         "score": -9999
       },
       {
@@ -2061,29 +2715,6 @@
             "name": "WEBDL-1080p"
           }
         ]
-      },
-      {
-        "id": -1,
-        "name": "SD",
-        "description": "Standard Definition Fallbacks",
-        "qualities": [
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -2110,8 +2741,36 @@
     "minScoreIncrement": 1,
     "custom_formats": [
       {
+        "name": "TRaSH Remux Tier 01",
+        "score": 175
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 165
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 01",
+        "score": 150
+      },
+      {
         "name": "2160p",
         "score": 120
+      },
+      {
+        "name": "TRaSH HD Bluray Tier 02",
+        "score": 100
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 85
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 75
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 65
       },
       {
         "name": "1080p",
@@ -2254,6 +2913,26 @@
         "score": 5
       },
       {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
         "name": "3D",
         "score": -9999
       },
@@ -2283,10 +2962,6 @@
       },
       {
         "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
         "score": -9999
       },
       {
@@ -2350,29 +3025,6 @@
       {
         "id": 9,
         "name": "WEBDL-1080p"
-      },
-      {
-        "id": -1,
-        "name": "SD",
-        "description": "Standard Definition Fallbacks",
-        "qualities": [
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -2382,5 +3034,1102 @@
     },
     "language": "must_original",
     "_id": "2160p Remux"
+  },
+  {
+    "name": "Anime",
+    "description": "TRaSH guides Anime setup",
+    "tags": [
+      "Anime",
+      "TRaSH",
+      "1080p",
+      "720p"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 10000,
+    "minScoreIncrement": 100,
+    "custom_formats": [
+      {
+        "name": "TRaSH Anime BD Tier 01",
+        "score": 1400
+      },
+      {
+        "name": "TRaSH Anime BD Tier 02",
+        "score": 1300
+      },
+      {
+        "name": "TRaSH Anime BD Tier 03",
+        "score": 1200
+      },
+      {
+        "name": "TRaSH Anime BD Tier 04",
+        "score": 1100
+      },
+      {
+        "name": "TRaSH Anime BD Tier 05",
+        "score": 1000
+      },
+      {
+        "name": "TRaSH Anime BD Tier 06",
+        "score": 900
+      },
+      {
+        "name": "TRaSH Remux Tier 01",
+        "score": 850
+      },
+      {
+        "name": "TRaSH Anime BD Tier 07",
+        "score": 800
+      },
+      {
+        "name": "TRaSH Remux Tier 02",
+        "score": 800
+      },
+      {
+        "name": "TRaSH Anime Web Tier 01",
+        "score": 600
+      },
+      {
+        "name": "TRaSH Anime Web Tier 02",
+        "score": 500
+      },
+      {
+        "name": "TRaSH Anime Web Tier 03",
+        "score": 400
+      },
+      {
+        "name": "TRaSH WEB Tier 01",
+        "score": 350
+      },
+      {
+        "name": "TRaSH Anime Web Tier 04",
+        "score": 300
+      },
+      {
+        "name": "TRaSH WEB Tier 02",
+        "score": 250
+      },
+      {
+        "name": "TRaSH WEB Tier 03",
+        "score": 150
+      },
+      {
+        "name": "1080p",
+        "score": 102
+      },
+      {
+        "name": "2160p",
+        "score": 50
+      },
+      {
+        "name": "720p",
+        "score": 25
+      },
+      {
+        "name": "Crunchyroll",
+        "score": 6
+      },
+      {
+        "name": "Disney+",
+        "score": 6
+      },
+      {
+        "name": "Disney+ [1080p]",
+        "score": 6
+      },
+      {
+        "name": "Netflix",
+        "score": 4
+      },
+      {
+        "name": "Netflix [1080p]",
+        "score": 4
+      },
+      {
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 3
+      },
+      {
+        "name": "Amazon Prime [1080p]",
+        "score": 3
+      },
+      {
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "name": "v0",
+        "score": -51
+      },
+      {
+        "name": "AV1",
+        "score": -10000
+      },
+      {
+        "name": "TRaSH Anime LQ Groups",
+        "score": -10000
+      },
+      {
+        "name": "TRaSH Anime Raws",
+        "score": -10000
+      },
+      {
+        "name": "Dubs Only",
+        "score": -10000
+      }
+    ],
+    "qualities": [
+      {
+        "id": -1,
+        "name": "Bluray-1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 8,
+            "name": "Remux-1080p"
+          },
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          }
+        ]
+      },
+      {
+        "id": -2,
+        "name": "WEB 1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 12,
+            "name": "HDTV-1080p"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Bluray-720p"
+      },
+      {
+        "id": -3,
+        "name": "WEB 720p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 16,
+            "name": "HDTV-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Bluray-480p"
+      },
+      {
+        "id": -4,
+        "name": "WEB 480p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "DVD"
+      },
+      {
+        "id": 24,
+        "name": "SDTV"
+      }
+    ],
+    "upgrade_until": {
+      "id": -1,
+      "name": "Bluray-1080p"
+    },
+    "language": "must_original",
+    "_id": "Anime"
+  },
+  {
+    "name": "SQP-1 (1080p) Streaming Optimized",
+    "description": "**TRaSH Guides:**\n    \n- You want good compatibility across a range of playback devices without compromising on release quality.\n- You run a second 'Streaming Optimized' instance of Radarr and want both versions, or just want streaming optimized 1080p overall.\n- You want to have little to no transcoding for low powered devices or remote streaming.\n- You want to grab releases optimized for streaming.\n- Smaller file sizes and bitrates.\n\n**BHDStudio release HQ 1080p Encodes with the following features:**\n- Streaming optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)\n- AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)\n- Small sizes\n- Good quality\n\n**If you don't have access to the top tier indexers, you won't have access to all BHDStudio releases, and you will end up with less or not streaming optimized releases.**\n\n**hallowed release HQ 1080p encodes with the following features:**\n- Highly streamable releases with some more modern optimizations:\n- Dolby Digital Plus multichannel or AAC mono/stereo audio (converted from lossless audio track)\n- Included English SRT subtitles, as well as a selection of PGS subtitles in English and other languages\n- Dual audio for foreign films \n- Smaller sizes\n- Good quality\n\nhallowed's releases have very good general availability.\n",
+    "tags": [
+      "TRaSH",
+      "1080p",
+      "Streaming Optimized"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 1000,
+    "upgradeUntilScore": 10000,
+    "minScoreIncrement": 1000,
+    "custom_formats": [
+      {
+        "name": "SQP - WEB Tier 01",
+        "score": 1700
+      },
+      {
+        "name": "SQP - WEB Tier 02",
+        "score": 1650
+      },
+      {
+        "name": "SQP - WEB Tier 03",
+        "score": 1600
+      },
+      {
+        "name": "SQP - HD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - HD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - BHDStudio",
+        "score": 1000
+      },
+      {
+        "name": "SQP - HD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "SQP - hallowed",
+        "score": 600
+      },
+      {
+        "name": "SQP - DD+ ATMOS",
+        "score": 135
+      },
+      {
+        "name": "SQP - DD+",
+        "score": 125
+      },
+      {
+        "name": "SQP - DD",
+        "score": 115
+      },
+      {
+        "name": "1080p",
+        "score": 50
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [1080p]",
+        "score": 20
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "720p",
+        "score": 5
+      },
+      {
+        "name": "Repack - Proper",
+        "score": 5
+      },
+      {
+        "name": "10bit",
+        "score": -10000
+      },
+      {
+        "name": "3D",
+        "score": -10000
+      },
+      {
+        "name": "AV1",
+        "score": -10000
+      },
+      {
+        "name": "BCORE",
+        "score": -10000
+      },
+      {
+        "name": "BR-DISK",
+        "score": -10000
+      },
+      {
+        "name": "Extras",
+        "score": -10000
+      },
+      {
+        "name": "Generated Dynamic HDR",
+        "score": -10000
+      },
+      {
+        "name": "LQ",
+        "score": -10000
+      },
+      {
+        "name": "LQ (Release Title)",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS X",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD HRA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD MA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD ATMOS",
+        "score": -10000
+      },
+      {
+        "name": "SQP - x265 (HD)",
+        "score": -10000
+      }
+    ],
+    "qualities": [
+      {
+        "id": -1,
+        "name": "Bluray|WEB-1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Bluray-720p"
+      }
+    ],
+    "upgrade_until": {
+      "id": -1,
+      "name": "Bluray|WEB-1080p"
+    },
+    "language": "must_original",
+    "_id": "SQP-1 (1080p) Streaming Optimized"
+  },
+  {
+    "name": "SQP-1 (2160p) Streaming Optimized",
+    "description": "**TRaSH Guides:**\n\n- You want 2160p with DV + HDR10 but don't care about HD audio (TrueHD, DTS-HD, DTS-X).\n- You want maximum compatibility across all devices and still a HQ release.\n- You run 2 instances of Radarr and want both version or you want to use this as your main.\n- You want to have little to no transcoding for low powered devices or remote streaming.\n- You're using your smart tv app as media player device.\n- You want to grab streaming optimized releases.\n\n**BHDStudio releases HQ 1080p/2160p Encodes with the following features:**\n\n- Streaming optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)\n- [1080p] AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)\n- [2160p] Encoded lossless audio track to Dolby Digital Plus 7.1 with Dolby Digital 5.1 fallback.\n- [2160p] Dolby Vision with HDR10 fallback or HDR10 if there is no DV HDR10 release.\n- Small sizes\n- Good quality\n\nIf you don't have access to the top tier indexers, you won't have access to all BHDStudio releases, and you will end up with less or not streaming optimized releases.\n\n**hallowed release HQ 1080p and 2160p encodes with the following features:**\n\n- Highly streamable releases, with some more modern optimizations:\n- Dolby Digital Plus multichannel, or AAC mono/stereo audio (converted from lossless audio track)\n- Included English SRT subtitles, as well as a selection of PGS subtitles in English and other languages\n- Dual audio for foreign films\n- [2160p] Dolby Vision and/or HDR10+ with HDR10 fallback, or HDR10 if there is no DV HDR10 or HDR10+ release.\n- Baked FEL where available\n- Smaller sizes\n- Good quality\n\nhallowed's releases have very good general availability.",
+    "tags": [
+      "TRaSH",
+      "2160p",
+      "Streaming Optimized"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 1000,
+    "upgradeUntilScore": 10000,
+    "minScoreIncrement": 1000,
+    "custom_formats": [
+      {
+        "name": "SQP - WEB Tier 01",
+        "score": 1700
+      },
+      {
+        "name": "SQP - WEB Tier 02",
+        "score": 1650
+      },
+      {
+        "name": "SQP - WEB Tier 03",
+        "score": 1600
+      },
+      {
+        "name": "SQP - HD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - HD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - HD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "SQP - hallowed",
+        "score": 600
+      },
+      {
+        "name": "SQP - BHDStudio",
+        "score": 550
+      },
+      {
+        "name": "SQP - DD+ ATMOS",
+        "score": 135
+      },
+      {
+        "name": "SQP - DD+",
+        "score": 125
+      },
+      {
+        "name": "SQP - DD",
+        "score": 115
+      },
+      {
+        "name": "1080p",
+        "score": 50
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [1080p]",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [2160p]",
+        "score": 20
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "720p",
+        "score": 5
+      },
+      {
+        "name": "Repack - Proper",
+        "score": 5
+      },
+      {
+        "name": "10bit",
+        "score": -10000
+      },
+      {
+        "name": "3D",
+        "score": -10000
+      },
+      {
+        "name": "AV1",
+        "score": -10000
+      },
+      {
+        "name": "BCORE",
+        "score": -10000
+      },
+      {
+        "name": "BR-DISK",
+        "score": -10000
+      },
+      {
+        "name": "Extras",
+        "score": -10000
+      },
+      {
+        "name": "Generated Dynamic HDR",
+        "score": -10000
+      },
+      {
+        "name": "LQ",
+        "score": -10000
+      },
+      {
+        "name": "LQ (Release Title)",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS X",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD HRA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD MA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD ATMOS",
+        "score": -10000
+      },
+      {
+        "name": "SQP - x265 (HD)",
+        "score": -10000
+      }
+    ],
+    "qualities": [
+      {
+        "id": 4,
+        "name": "Bluray-2160p"
+      },
+      {
+        "id": -2,
+        "name": "WEB-2160p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 5,
+            "name": "WEBDL-2160p"
+          },
+          {
+            "id": 6,
+            "name": "WEBRip-2160p"
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "name": "Bluray|WEB-1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          },
+          {
+            "id": 14,
+            "name": "WEBDL-720p"
+          },
+          {
+            "id": 15,
+            "name": "WEBRip-720p"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Bluray-720p"
+      }
+    ],
+    "upgrade_until": {
+      "id": 4,
+      "name": "Bluray-2160p",
+      "description": "4K Ultra HD Blu-ray video encoded with lossy compression"
+    },
+    "language": "must_original",
+    "_id": "SQP-1 (2160p) Streaming Optimized"
+  },
+  {
+    "name": "SQP-1 WEB (1080p) Streaming Optimized",
+    "description": "**TRaSH Guides:**\n\n- You run a second \"Streaming Optimized\" instance of Radarr and want both versions, or you just want streaming-optimized 1080p overall.\n- You want fewer upgrades than with SQP-1 because the WEBDL is often watched before the BHDStudio Blu-ray is released.\n- You desire good compatibility across various playback devices without compromising release quality.\n- You want little to no transcoding for low-powered devices or remote streaming.\n- Smaller file sizes and bitrates ( the same quality as you would get with official streaming services).\n- Easier to obtain even without access to top-tier trackers or indexers.\n- You prefer Dolby Digital Plus (Atmos) audio over Dolby Digital, as WEB-DLs commonly come with Dolby Digital Plus (Atmos) audio.\n- You prefer IMAX-Enhanced.\n- You prefer included embedded subtitles.\n- More cross-seed hits, as WEBDL is more widespread over the trackers.\n\n**BHDStudio release HQ 1080p Encodes with the following features:**\n\n-Streaming optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)\n-AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)\n-Small sizes\n-Good quality\n\nIf you don't have access to the top tier indexers, you won't have access to all BHDStudio releases. WEB releases, however, have much better general availability.\n\n**hallowed release HQ 1080p encodes with the following features:**\n\n- Highly streamable releases with some more modern optimizations:\n- Dolby Digital Plus multichannel or AAC mono/stereo audio (converted from lossless audio track)\n- Included English SRT subtitles, as well as a selection of PGS subtitles in English and other languages\n- Dual audio for foreign films\n- Smaller sizes\n- Good quality\n\nhallowed's releases have very good general availability.",
+    "tags": [
+      "TRaSH",
+      "1080p",
+      "Streaming Optimized",
+      "WEB"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 1000,
+    "upgradeUntilScore": 10000,
+    "minScoreIncrement": 1000,
+    "custom_formats": [
+      {
+        "name": "SQP - WEB Tier 01",
+        "score": 1700
+      },
+      {
+        "name": "SQP - WEB Tier 02",
+        "score": 1650
+      },
+      {
+        "name": "SQP - WEB Tier 03",
+        "score": 1600
+      },
+      {
+        "name": "SQP - HD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - HD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - HD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "SQP - hallowed",
+        "score": 600
+      },
+      {
+        "name": "SQP - BHDStudio",
+        "score": 550
+      },
+      {
+        "name": "SQP - DD+ ATMOS",
+        "score": 135
+      },
+      {
+        "name": "SQP - DD+",
+        "score": 125
+      },
+      {
+        "name": "SQP - DD",
+        "score": 115
+      },
+      {
+        "name": "1080p",
+        "score": 50
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [1080p]",
+        "score": 20
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "720p",
+        "score": 5
+      },
+      {
+        "name": "Repack - Proper",
+        "score": 5
+      },
+      {
+        "name": "2.0 Stereo",
+        "score": -175
+      },
+      {
+        "name": "10bit",
+        "score": -10000
+      },
+      {
+        "name": "3D",
+        "score": -10000
+      },
+      {
+        "name": "AV1",
+        "score": -10000
+      },
+      {
+        "name": "BCORE",
+        "score": -10000
+      },
+      {
+        "name": "BR-DISK",
+        "score": -10000
+      },
+      {
+        "name": "Extras",
+        "score": -10000
+      },
+      {
+        "name": "Generated Dynamic HDR",
+        "score": -10000
+      },
+      {
+        "name": "LQ",
+        "score": -10000
+      },
+      {
+        "name": "LQ (Release Title)",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS X",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD HRA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD MA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD ATMOS",
+        "score": -10000
+      },
+      {
+        "name": "SQP - x265 (HD)",
+        "score": -10000
+      }
+    ],
+    "qualities": [
+      {
+        "id": -1,
+        "name": "Bluray|WEB-1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": -1,
+      "name": "Bluray|WEB-1080p"
+    },
+    "language": "must_original",
+    "_id": "SQP-1 WEB (1080p) Streaming Optimized"
+  },
+  {
+    "name": "SQP-1 WEB (2160p) Streaming Optimized",
+    "description": "**TRaSH Guides:**\n\n- You want 2160p with DV + HDR10 but don't care about HD audio (TrueHD, DTS-HD, DTS-X).\n- You want maximum compatibility across all devices and still a HQ release.\n- You run 2 instances of Radarr and want both version or you want to use this as your main.\n- You want to have little to no transcoding for low powered devices or remote streaming.\n- You're using your smart tv app as media player device.\n- You want to grab streaming optimized releases.\n\n**BHDStudio releases HQ 1080p/2160p Encodes with the following features:**\n\n- Streaming optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)\n- [1080p] AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)\n- [2160p] Encoded lossless audio track to Dolby Digital Plus 7.1 with Dolby Digital 5.1 fallback.\n- [2160p] Dolby Vision with HDR10 fallback or HDR10 if there is no DV HDR10 release.\n- Small sizes\n- Good quality\n\nIf you don't have access to the top tier indexers, you won't have access to all BHDStudio releases, and you will end up with less or not streaming optimized releases.\n\n**hallowed release HQ 1080p and 2160p encodes with the following features:**\n\n- Highly streamable releases, with some more modern optimizations:\n- Dolby Digital Plus multichannel, or AAC mono/stereo audio (converted from lossless audio track)\n- Included English SRT subtitles, as well as a selection of PGS subtitles in English and other languages\n- Dual audio for foreign films\n- [2160p] Dolby Vision and/or HDR10+ with HDR10 fallback, or HDR10 if there is no DV HDR10 or HDR10+ release.\n- Baked FEL where available\n- Smaller sizes\n- Good quality\n\nhallowed's releases have very good general availability.",
+    "tags": [
+      "TRaSH",
+      "2160p",
+      "Streaming Optimized",
+      "WEB"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 1000,
+    "upgradeUntilScore": 10000,
+    "minScoreIncrement": 1000,
+    "custom_formats": [
+      {
+        "name": "SQP - WEB Tier 01",
+        "score": 1700
+      },
+      {
+        "name": "SQP - WEB Tier 02",
+        "score": 1650
+      },
+      {
+        "name": "SQP - WEB Tier 03",
+        "score": 1600
+      },
+      {
+        "name": "Dolby Vision",
+        "score": 1500
+      },
+      {
+        "name": "DV HDR10",
+        "score": 1500
+      },
+      {
+        "name": "DV HDR10+",
+        "score": 1500
+      },
+      {
+        "name": "DV HLG",
+        "score": 1500
+      },
+      {
+        "name": "DV SDR",
+        "score": 1500
+      },
+      {
+        "name": "SQP - HD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 01",
+        "score": 1100
+      },
+      {
+        "name": "SQP - HD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 02",
+        "score": 1050
+      },
+      {
+        "name": "SQP - HD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "SQP - UHD Bluray Tier 03",
+        "score": 1000
+      },
+      {
+        "name": "HDR10+",
+        "score": 600
+      },
+      {
+        "name": "SQP - hallowed",
+        "score": 600
+      },
+      {
+        "name": "SQP - BHDStudio",
+        "score": 550
+      },
+      {
+        "name": "HDR (undefined)",
+        "score": 500
+      },
+      {
+        "name": "HDR10",
+        "score": 500
+      },
+      {
+        "name": "HLG",
+        "score": 500
+      },
+      {
+        "name": "PQ",
+        "score": 500
+      },
+      {
+        "name": "SQP - DD+ ATMOS",
+        "score": 135
+      },
+      {
+        "name": "SQP - DD+",
+        "score": 125
+      },
+      {
+        "name": "SQP - DD",
+        "score": 115
+      },
+      {
+        "name": "1080p",
+        "score": 50
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [1080p]",
+        "score": 20
+      },
+      {
+        "name": "Movies Anywhere [2160p]",
+        "score": 20
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "720p",
+        "score": 5
+      },
+      {
+        "name": "Repack - Proper",
+        "score": 5
+      },
+      {
+        "name": "2.0 Stereo",
+        "score": -175
+      },
+      {
+        "name": "10bit",
+        "score": -10000
+      },
+      {
+        "name": "3D",
+        "score": -10000
+      },
+      {
+        "name": "AV1",
+        "score": -10000
+      },
+      {
+        "name": "BCORE",
+        "score": -10000
+      },
+      {
+        "name": "BR-DISK",
+        "score": -10000
+      },
+      {
+        "name": "DV (WEBDL)",
+        "score": -10000
+      },
+      {
+        "name": "Extras",
+        "score": -10000
+      },
+      {
+        "name": "Generated Dynamic HDR",
+        "score": -10000
+      },
+      {
+        "name": "LQ",
+        "score": -10000
+      },
+      {
+        "name": "LQ (Release Title)",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS X",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD HRA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - DTS-HD MA",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD",
+        "score": -10000
+      },
+      {
+        "name": "SQP - TrueHD ATMOS",
+        "score": -10000
+      },
+      {
+        "name": "SQP - x265 (HD)",
+        "score": -10000
+      }
+    ],
+    "qualities": [
+      {
+        "id": -3,
+        "name": "Bluray|WEB-2160p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 4,
+            "name": "Bluray-2160p"
+          },
+          {
+            "id": 5,
+            "name": "WEBDL-2160p"
+          },
+          {
+            "id": 6,
+            "name": "WEBRip-2160p"
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "name": "Bluray|WEB-1080p",
+        "description": "",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Bluray-720p"
+      }
+    ],
+    "upgrade_until": {
+      "id": -3,
+      "name": "Bluray|WEB-2160p"
+    },
+    "language": "must_original",
+    "_id": "SQP-1 WEB (2160p) Streaming Optimized"
   }
 ]
