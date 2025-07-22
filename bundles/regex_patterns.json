@@ -1,5 +1,35 @@
 [
   {
+    "name": "$tore-Chill",
+    "pattern": "\\b(\\$tore-Chill)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "$tore-Chill"
+  },
+  {
+    "name": "0neshot",
+    "pattern": "\\b(0neshot)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "0neshot"
+  },
+  {
+    "name": "0x539",
+    "pattern": "\\b(0x539)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "0x539"
+  },
+  {
     "name": "10bit-HDS",
     "pattern": "(?<=^|[\\s.-])10bit-HDS\\b",
     "description": "Matches the release group `10bit-HDS` only if it is:\n\n- Preceded by the start of the string (`^`), a whitespace character (`\\s`), a period (`.`), or a hyphen (`-`).\n- Followed by a word boundary (`\\b`), ensuring it ends cleanly without being part of a longer word. ",
@@ -8,6 +38,46 @@
     ],
     "tests": [],
     "_id": "10bit-HDS"
+  },
+  {
+    "name": "10bit",
+    "pattern": "10[.-]?bit",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "10bit"
+  },
+  {
+    "name": "1XBET",
+    "pattern": "\\\\b(1XBET)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "1XBET"
+  },
+  {
+    "name": "224",
+    "pattern": "\\[224\\]|-224\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "224"
+  },
+  {
+    "name": "24xHD",
+    "pattern": "\\b(24xHD)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "24xHD"
   },
   {
     "name": "3D",
@@ -54,6 +124,26 @@
     "_id": "3D"
   },
   {
+    "name": "3cTWeB",
+    "pattern": "^(3cTWeB)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "3cTWeB"
+  },
+  {
+    "name": "41RGB",
+    "pattern": "^(41RGB)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "41RGB"
+  },
+  {
     "name": "4K4U",
     "pattern": "(?<=^|[\\s.-])4K4U\\b",
     "description": "Matches the release group `4K4U` only if it is:\n\n- Preceded by the start of the string (`^`), a whitespace character (`\\s`), a period (`.`), or a hyphen (`-`).\n- Followed by a word boundary (`\\b`), ensuring it ends cleanly without being part of a longer word. ",
@@ -85,6 +175,36 @@
     "_id": "7.1 Surround"
   },
   {
+    "name": "9volt",
+    "pattern": "\\b(9volt)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "9volt"
+  },
+  {
+    "name": "A-Destiny",
+    "pattern": "\\b(A-Destiny)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "A-Destiny"
+  },
+  {
+    "name": "A-L",
+    "pattern": "\\b(A-L)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "A-L"
+  },
+  {
     "name": "AAAUHD",
     "pattern": "(?<=^|[\\s.-])AAAUHD\\b",
     "description": "",
@@ -98,12 +218,14 @@
     "name": "AAC",
     "pattern": "\\bAAC(\\b|\\d)",
     "description": "",
-    "tags": [],
+    "tags": [
+      "Release Group"
+    ],
     "tests": [],
     "_id": "AAC"
   },
   {
-    "name": "ABBIE",
+    "name": "ABBiE",
     "pattern": "(?<=^|[\\s.-])ABBIE\\b",
     "description": "",
     "tags": [
@@ -111,6 +233,16 @@
     ],
     "tests": [],
     "_id": "ABBIE"
+  },
+  {
+    "name": "AC",
+    "pattern": "\\[AC\\]|-AC$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AC"
   },
   {
     "name": "ADE",
@@ -133,14 +265,135 @@
     "_id": "AJP69"
   },
   {
-    "name": "APEX",
-    "pattern": "(?<=^|[\\s.-])APEX\\b",
+    "name": "ANE",
+    "pattern": "\\[ANE\\]|-ANE$",
     "description": "",
     "tags": [
       "Release Group"
     ],
     "tests": [],
+    "_id": "ANE"
+  },
+  {
+    "name": "ANThELIa",
+    "pattern": "\\b(ANThELIa)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ANThELIa"
+  },
+  {
+    "name": "ANiHLS",
+    "pattern": "\\b(ANiHLS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ANiHLS"
+  },
+  {
+    "name": "AOmundson",
+    "pattern": "\\b(AOmundson)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AOmundson"
+  },
+  {
+    "name": "AP",
+    "pattern": "\\b(AP)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AP"
+  },
+  {
+    "name": "APEX",
+    "pattern": "^(APEX|PAXA|PEXA|XEPA)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
     "_id": "APEX"
+  },
+  {
+    "name": "ARC",
+    "pattern": "\\[ARC\\]|-ARC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ARC"
+  },
+  {
+    "name": "AREY",
+    "pattern": "\\b(AREY)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AREY"
+  },
+  {
+    "name": "AROMA",
+    "pattern": "^(AROMA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AROMA"
+  },
+  {
+    "name": "ASC",
+    "pattern": "\\b(ASC)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ASC"
+  },
+  {
+    "name": "ASO",
+    "pattern": "\\b(ASO)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ASO"
+  },
+  {
+    "name": "ASW",
+    "pattern": "\\b(ASW)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ASW"
+  },
+  {
+    "name": "ATELiER",
+    "pattern": "^(ATELiER)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ATELiER"
   },
   {
     "name": "AV1",
@@ -190,6 +443,16 @@
     "_id": "AViATOR"
   },
   {
+    "name": "AZAZE",
+    "pattern": "^(AZAZE)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AZAZE"
+  },
+  {
     "name": "Absinth",
     "pattern": "(?<=^|[\\s.-])Absinth\\b",
     "description": "",
@@ -198,6 +461,76 @@
     ],
     "tests": null,
     "_id": "Absinth"
+  },
+  {
+    "name": "AceAres",
+    "pattern": "\\b(AceAres)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AceAres"
+  },
+  {
+    "name": "Aergia",
+    "pattern": "\\[Aergia\\]|-Aergia(?!-raws)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Aergia"
+  },
+  {
+    "name": "Afro",
+    "pattern": "\\[Afro\\]|-Afro\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Afro"
+  },
+  {
+    "name": "AhmadDev",
+    "pattern": "\\b(AhmadDev)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AhmadDev"
+  },
+  {
+    "name": "Akai",
+    "pattern": "\\[Akai\\]|-Akai\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Akai"
+  },
+  {
+    "name": "Almighty",
+    "pattern": "\\[Almighty\\]|-Almighty\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Almighty"
+  },
+  {
+    "name": "Alt",
+    "pattern": "\\[Alt\\]|-Alt\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Alt"
   },
   {
     "name": "Amazon Prime",
@@ -269,6 +602,106 @@
     "_id": "Amazon Prime"
   },
   {
+    "name": "AniVoid",
+    "pattern": "\\b(AniVoid)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AniVoid"
+  },
+  {
+    "name": "Anime Chap",
+    "pattern": "\\b(Anime[ .-]?Chap)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Anime-Chap"
+  },
+  {
+    "name": "Anime Land",
+    "pattern": "\\b(Anime[ .-]?Land)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Anime-Land"
+  },
+  {
+    "name": "Anime Time",
+    "pattern": "\\b(Anime[ .-]?Time)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Anime-Time"
+  },
+  {
+    "name": "AnimeDynastyEN",
+    "pattern": "\\b(AnimeDynastyEN)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AnimeDynastyEN"
+  },
+  {
+    "name": "AnimeKuro",
+    "pattern": "\\b(AnimeKuro)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AnimeKuro"
+  },
+  {
+    "name": "AnimeRG",
+    "pattern": "\\b(AnimeRG)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AnimeRG"
+  },
+  {
+    "name": "AnimeTR",
+    "pattern": "\\b(AnimeTR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AnimeTR"
+  },
+  {
+    "name": "Animesubs",
+    "pattern": "\\b(Animesubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Animesubs"
+  },
+  {
+    "name": "Anitsu",
+    "pattern": "\\b(Anitsu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Anitsu"
+  },
+  {
     "name": "Apple TV+",
     "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
     "description": "Apple TV+ is an American subscription OTT streaming service owned and operated by Apple Inc. Launched on November 1, 2019, it offers a selection of original production film and television series called Apple Originals.",
@@ -308,6 +741,76 @@
       }
     ],
     "_id": "Apple TV+"
+  },
+  {
+    "name": "ArataEnc",
+    "pattern": "\\b(ArataEnc)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ArataEnc"
+  },
+  {
+    "name": "Arg0",
+    "pattern": "\\b(Arg0)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Arg0"
+  },
+  {
+    "name": "Ari",
+    "pattern": "\\[Ari\\]|-Ari\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Ari"
+  },
+  {
+    "name": "Arid",
+    "pattern": "\\[Arid\\]|-Arid\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Arid"
+  },
+  {
+    "name": "Asakura",
+    "pattern": "\\[Asakura\\]|-Asakura\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Asakura"
+  },
+  {
+    "name": "Asenshi",
+    "pattern": "\\b(Asenshi)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Asenshi"
+  },
+  {
+    "name": "AssMix",
+    "pattern": "\\b(AssMix)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "AssMix"
   },
   {
     "name": "Atmos",
@@ -370,6 +873,16 @@
       }
     ],
     "_id": "Atmos"
+  },
+  {
+    "name": "Ayashii",
+    "pattern": "\\[Ayashii\\]|-Ayashii\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Ayashii"
   },
   {
     "name": "B&W",
@@ -490,6 +1003,56 @@
     "_id": "B&W"
   },
   {
+    "name": "BARC0DE",
+    "pattern": "^(BARC0DE)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BARC0DE"
+  },
+  {
+    "name": "BAUCKLEY",
+    "pattern": "^(BAUCKLEY)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BAUCKLEY"
+  },
+  {
+    "name": "BBQ",
+    "pattern": "^(BBQ)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BBQ"
+  },
+  {
+    "name": "BD3D",
+    "pattern": "\\b(BD3D)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BD3D"
+  },
+  {
+    "name": "BEN THE MEN",
+    "pattern": "\\\\b(BEN[ ._-]THE[ ._-]MEN)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BEN-THE-MEN"
+  },
+  {
     "name": "BHDStudio",
     "pattern": "(?<=^|[\\s.-])BHDStudio\\b",
     "description": "",
@@ -500,6 +1063,26 @@
     "_id": "BHDStudio"
   },
   {
+    "name": "BJX",
+    "pattern": "\\b(BJX)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BJX"
+  },
+  {
+    "name": "BKC",
+    "pattern": "\\b(BKC)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BKC"
+  },
+  {
     "name": "BLUEBIRD",
     "pattern": "(?<=^|[\\s.-])BLUEBIRD\\b",
     "description": "",
@@ -508,6 +1091,16 @@
     ],
     "tests": null,
     "_id": "BLUEBIRD"
+  },
+  {
+    "name": "BLURANiUM",
+    "pattern": "^(BLURANiUM)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BLURANiUM"
   },
   {
     "name": "BLUTONiUM",
@@ -538,6 +1131,14 @@
     ],
     "tests": null,
     "_id": "BOREDOR"
+  },
+  {
+    "name": "BR-DISK",
+    "pattern": "^(?!.*\\b((?<!HD[._ -]|HD)DVD|BDRip|720p|MKV|XviD|WMV|d3g|(BD)?REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_. ]?26[45]|German.*[DM]L|((?<=\\d{4}).*German.*([DM]L)?)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2)\\b))\\b)(((?=.*\\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\\b)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2|BDMV|ISO)\\b))|^((?=.*\\b(((?=.*\\b((.*_)?COMPLETE.*|Dis[ck])\\b)(?=.*(Blu[-_. ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_. ]?(25|50|66|100|ISO)))))))).*",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "BR-DISK"
   },
   {
     "name": "BSTD",
@@ -626,6 +1227,16 @@
     ],
     "tests": [],
     "_id": "BTN"
+  },
+  {
+    "name": "BTW",
+    "pattern": "^(BTW)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BTW"
   },
   {
     "name": "BV",
@@ -787,6 +1398,36 @@
       }
     ],
     "_id": "Basic HDR Formats"
+  },
+  {
+    "name": "Baws",
+    "pattern": "\\b(Baws)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Baws"
+  },
+  {
+    "name": "BdC",
+    "pattern": "^(BdC)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BdC"
+  },
+  {
+    "name": "Beatrice-Raws",
+    "pattern": "Beatrice[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Beatrice-Raws"
   },
   {
     "name": "BeiTa",
@@ -1247,6 +1888,16 @@
     "_id": "BiTOR"
   },
   {
+    "name": "BlackLuster",
+    "pattern": "\\b(BlackLuster)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BlackLuster"
+  },
+  {
     "name": "Bloated Remux Groups",
     "pattern": "\\b(LEGi0N|FGT|RARBG)\\b",
     "description": "Matches groups that add multiple audio tracks to remuxes",
@@ -1288,6 +1939,46 @@
     "_id": "Bloated Remux Groups"
   },
   {
+    "name": "BluDragon",
+    "pattern": "\\b(BluDragon)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BluDragon"
+  },
+  {
+    "name": "BluRay3D",
+    "pattern": "\\b(BluRay3D)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BluRay3D"
+  },
+  {
+    "name": "BlueLobster",
+    "pattern": "\\b(BlueLobster)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BlueLobster"
+  },
+  {
+    "name": "BlurayDesuYo",
+    "pattern": "\\b(BlurayDesuYo)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BlurayDesuYo"
+  },
+  {
     "name": "BlzT",
     "pattern": "(?<=^|[\\s.-])BlzT\\b",
     "description": "",
@@ -1296,6 +1987,16 @@
     ],
     "tests": null,
     "_id": "BlzT"
+  },
+  {
+    "name": "Bolshevik",
+    "pattern": "\\[Bolshevik\\]|-Bolshevik\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Bolshevik"
   },
   {
     "name": "Bracketed Year",
@@ -1318,6 +2019,116 @@
       }
     ],
     "_id": "Bracketed Year"
+  },
+  {
+    "name": "Bravia Core",
+    "pattern": "\\\\b(BCORE)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Bravia_Core"
+  },
+  {
+    "name": "Brrrrrrr",
+    "pattern": "\\b(Brrrrrrr)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Brrrrrrr"
+  },
+  {
+    "name": "Bulldog",
+    "pattern": "\\[Bulldog\\]|-Bulldog\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Bulldog"
+  },
+  {
+    "name": "Bunny-Apocalypse",
+    "pattern": "\\b(Bunny-Apocalypse)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Bunny-Apocalypse"
+  },
+  {
+    "name": "C1NEM4",
+    "pattern": "^(C1NEM4)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "C1NEM4"
+  },
+  {
+    "name": "C4K",
+    "pattern": "^(C4K)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "C4K"
+  },
+  {
+    "name": "CBB",
+    "pattern": "\\b(CBB)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CBB"
+  },
+  {
+    "name": "CBM",
+    "pattern": "\\b(CBM)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CBM"
+  },
+  {
+    "name": "CBT",
+    "pattern": "\\b(CBT)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CBT"
+  },
+  {
+    "name": "CDDHD",
+    "pattern": "^(CDDHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CDDHD"
+  },
+  {
+    "name": "CH",
+    "pattern": "\\[CH\\]|-CH\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CH"
   },
   {
     "name": "CHAOS",
@@ -1404,6 +2215,26 @@
     "_id": "CMRG"
   },
   {
+    "name": "COLLECTiVE",
+    "pattern": "^(COLLECTiVE)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "COLLECTiVE"
+  },
+  {
+    "name": "CREATiVE24",
+    "pattern": "^(CREATiVE24)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CREATiVE24"
+  },
+  {
     "name": "CRFW",
     "pattern": "(?<=^|[\\s.-])CRFW\\b",
     "description": "",
@@ -1412,6 +2243,17 @@
     ],
     "tests": [],
     "_id": "CRFW"
+  },
+  {
+    "name": "CRUD",
+    "pattern": "^(CRUD)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "CRUD"
   },
   {
     "name": "CRX",
@@ -1434,6 +2276,106 @@
     "_id": "CRiSC"
   },
   {
+    "name": "CTFOH",
+    "pattern": "^(CTFOH)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CTFOH"
+  },
+  {
+    "name": "CTR",
+    "pattern": "\\b(CTR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CTR"
+  },
+  {
+    "name": "CUNNY",
+    "pattern": "\\b(CUNNY)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CUNNY"
+  },
+  {
+    "name": "Cait-Sidhe",
+    "pattern": "\\b(Cait-Sidhe)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cait-Sidhe"
+  },
+  {
+    "name": "CameEsp",
+    "pattern": "\\b(CameEsp)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CameEsp"
+  },
+  {
+    "name": "CasStudio",
+    "pattern": "^(CasStudio)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CasStudio"
+  },
+  {
+    "name": "Cat66",
+    "pattern": "\\b(Cat66)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cat66"
+  },
+  {
+    "name": "Cerberus",
+    "pattern": "\\[Cerberus\\]|-Cerberus\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cerberus"
+  },
+  {
+    "name": "Chihiro",
+    "pattern": "\\[Chihiro\\]|-Chihiro\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Chihiro"
+  },
+  {
+    "name": "Chimera",
+    "pattern": "\\[Chimera\\]|-Chimera\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Chimera"
+  },
+  {
     "name": "ChopperHitler",
     "pattern": "(?<=^|[\\s.-])ChopperHitler\\b",
     "description": "",
@@ -1452,6 +2394,56 @@
     ],
     "tests": [],
     "_id": "Chotab"
+  },
+  {
+    "name": "CiNE",
+    "pattern": "^(CiNE)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CiNE"
+  },
+  {
+    "name": "CiT",
+    "pattern": "^(CiT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CiT"
+  },
+  {
+    "name": "Cinefeel",
+    "pattern": "^(Cinefeel)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cinefeel"
+  },
+  {
+    "name": "Cleo",
+    "pattern": "\\[Cleo\\]|-Cleo",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cleo"
+  },
+  {
+    "name": "CoalGirls",
+    "pattern": "\\b(CoalGirls)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CoalGirls"
   },
   {
     "name": "Colourisation",
@@ -1551,6 +2543,36 @@
     "_id": "Colourisation"
   },
   {
+    "name": "Commie",
+    "pattern": "\\b(Commie)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Commie"
+  },
+  {
+    "name": "Coo7",
+    "pattern": "^(Coo7)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Coo7"
+  },
+  {
+    "name": "CrEwSaDe",
+    "pattern": "^(CrEwSaDe)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CrEwSaDe"
+  },
+  {
     "name": "Criterion Channel",
     "pattern": "\\bCRiT\\b",
     "description": "The Criterion Channel is a subscription-based streaming service launched on April 8, 2019, by The Criterion Collection. Available in the United States and Canada, it features a rich library of films, including Criterion Collection releases with special features, curated playlists, temporarily licensed titles, and original content such as academic overviews and introductions. The Channel also showcases Janus-owned titles not yet available on physical media and maintains a collaborative relationship with Warner Bros. Discovery's Max platform. Perfect for cinephiles, the service brings a curated cinematic experience to the digital space.",
@@ -1613,6 +2635,36 @@
     "_id": "Criterion Channel"
   },
   {
+    "name": "Crow",
+    "pattern": "\\[Crow\\]|-Crow\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Crow"
+  },
+  {
+    "name": "Crunchyroll",
+    "pattern": "\\\\b(C(runchy)?[ .-]?R(oll)?)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Crunchyroll"
+  },
+  {
+    "name": "CsS",
+    "pattern": "\\b(CsS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CsS"
+  },
+  {
     "name": "CtrlHD",
     "pattern": "(?<=^|[\\s.-])CtrlHD\\b",
     "description": "",
@@ -1623,6 +2675,36 @@
     "_id": "CtrlHD"
   },
   {
+    "name": "CuaP",
+    "pattern": "\\b(CuaP)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CuaP"
+  },
+  {
+    "name": "CyC",
+    "pattern": "\\b(CyC)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CyC"
+  },
+  {
+    "name": "Cyan",
+    "pattern": "\\[Cyan\\]|-Cyan\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Cyan"
+  },
+  {
     "name": "D-Z0N3",
     "pattern": "(?<=^|[\\s.-])D-Z0N3\\b",
     "description": "",
@@ -1631,6 +2713,66 @@
     ],
     "tests": [],
     "_id": "D-Z0N3"
+  },
+  {
+    "name": "D3",
+    "pattern": "\\b(D3)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "D3"
+  },
+  {
+    "name": "D4C",
+    "pattern": "\\b(D4C)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "D4C"
+  },
+  {
+    "name": "DARKFLiX",
+    "pattern": "\\b(DARKFLiX)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DARKFLiX"
+  },
+  {
+    "name": "DBArabic",
+    "pattern": "\\b(DBArabic)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DBArabic"
+  },
+  {
+    "name": "DDR",
+    "pattern": "^(DDR)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DDR"
+  },
+  {
+    "name": "DEEP",
+    "pattern": "^(DEEP)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DEEP"
   },
   {
     "name": "DEFLATE",
@@ -1663,6 +2805,36 @@
     "_id": "DESPACiTO"
   },
   {
+    "name": "DHD",
+    "pattern": "\\b(DHD)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DHD"
+  },
+  {
+    "name": "DKB",
+    "pattern": "\\b(DKB)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DKB"
+  },
+  {
+    "name": "DNL",
+    "pattern": "^(DNL)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DNL"
+  },
+  {
     "name": "DON",
     "pattern": "(?<=^|[\\s.-])DON\\b",
     "description": "",
@@ -1671,6 +2843,26 @@
     ],
     "tests": [],
     "_id": "DON"
+  },
+  {
+    "name": "DP",
+    "pattern": "\\b(DP)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DP"
+  },
+  {
+    "name": "DRACULA",
+    "pattern": "^(DRACULA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DRACULA"
   },
   {
     "name": "DTS-HD HRA ES",
@@ -1744,6 +2936,86 @@
     "_id": "DTS"
   },
   {
+    "name": "DV HDR10+",
+    "pattern": "^(?=.*\\b(DV|DoVi|Dolby[ .]?V(ision)?)\\b)(?=.*\\b((HDR10(?=(P(lus)?)\\b|\\+))))",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DV-HDR10+"
+  },
+  {
+    "name": "DV HDR10",
+    "pattern": "^(?=.*\\\\b(DV|DoVi|Dolby[ .]?V(ision)?)\\\\b)(?=.*\\\\b((HDR10(?!(P(lus)?)\\\\b|\\\\+))|(HDR))\\\\b)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DV-HDR10"
+  },
+  {
+    "name": "DV",
+    "pattern": "\\\\b(dv|dovi|dolby[ .]?v(ision)?)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DV"
+  },
+  {
+    "name": "DV HLG",
+    "pattern": "\\\\b(DV[ .]HLG)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DV_HLG"
+  },
+  {
+    "name": "DV SDR",
+    "pattern": "\\\\b(DV[ .]SDR)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DV_SDR"
+  },
+  {
+    "name": "Daddy-Raws",
+    "pattern": "Daddy[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Daddy-Raws"
+  },
+  {
+    "name": "DaddySubs",
+    "pattern": "\\[Daddy(Subs)?\\]|-Daddy(Subs)?\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DaddySubs"
+  },
+  {
+    "name": "Dae",
+    "pattern": "\\[Dae\\]|-Dae\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Dae"
+  },
+  {
     "name": "Dariush",
     "pattern": "(?<=^|[\\s.-])Dariush\\b",
     "description": "",
@@ -1752,6 +3024,56 @@
     ],
     "tests": [],
     "_id": "Dariush"
+  },
+  {
+    "name": "Datte13",
+    "pattern": "\\b(Datte13)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Datte13"
+  },
+  {
+    "name": "Davinci",
+    "pattern": "\\[Davinci\\]|-Davinci\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Davinci"
+  },
+  {
+    "name": "Deadmau- RAWS",
+    "pattern": "\\b(Deadmau[ .-]?[ .-]?RAWS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Deadmau-RAWS"
+  },
+  {
+    "name": "Dekinai",
+    "pattern": "\\[Dekinai\\]|-Dekinai\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Dekinai"
+  },
+  {
+    "name": "DepraveD",
+    "pattern": "^(DepraveD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DepraveD"
   },
   {
     "name": "DiNAMiC",
@@ -1817,6 +3139,16 @@
       }
     ],
     "_id": "Disney+"
+  },
+  {
+    "name": "Doki",
+    "pattern": "\\[Doki\\]|-Doki\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Doki"
   },
   {
     "name": "Dolby Digital +",
@@ -2047,6 +3379,46 @@
     "_id": "Dolby Vision"
   },
   {
+    "name": "Drag",
+    "pattern": "\\[Drag\\]|-Drag\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Drag"
+  },
+  {
+    "name": "Dragon-Releases",
+    "pattern": "\\b(Dragon-Releases)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Dragon-Releases"
+  },
+  {
+    "name": "DragsterPS",
+    "pattern": "\\b(DragsterPS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DragsterPS"
+  },
+  {
+    "name": "DsunS",
+    "pattern": "\\b(DsunS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "DsunS"
+  },
+  {
     "name": "Dual Audio",
     "pattern": "\\b((multi[^a-zA-Z]*)|(dual[\\s.-](audio|complete)))\\b",
     "description": "Matches releases with Dual Audio; Media releases that contain two language tracks - typically the original language (such as Japanese) along with an English dub, allowing viewers to switch between either audio track while watching the same video content.",
@@ -2194,6 +3566,14 @@
     "_id": "Dual Audio"
   },
   {
+    "name": "Dubbed",
+    "pattern": "^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\\b(dub(bed)?)\\b|(funi|eng(lish)?)_?dub)",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Dubbed"
+  },
+  {
     "name": "E.N.D",
     "pattern": "(?<=^|[\\s.-])E.N.D\\b",
     "description": "",
@@ -2234,6 +3614,16 @@
     "_id": "EDPH"
   },
   {
+    "name": "EJF",
+    "pattern": "\\b(EJF)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "EJF"
+  },
+  {
     "name": "EMERALD",
     "pattern": "(?<=^|[\\s.-])EMERALD\\b",
     "description": "",
@@ -2242,6 +3632,16 @@
     ],
     "tests": null,
     "_id": "EMERALD"
+  },
+  {
+    "name": "END",
+    "pattern": "^(END)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "END"
   },
   {
     "name": "ENDSTATiON",
@@ -2254,6 +3654,26 @@
     "_id": "ENDSTATiON"
   },
   {
+    "name": "EPSiLON",
+    "pattern": "^(EPSiLON)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "EPSiLON"
+  },
+  {
+    "name": "EPiC",
+    "pattern": "^(EPiC)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "EPiC"
+  },
+  {
     "name": "ESiR",
     "pattern": "(?<=^|[\\s.-])ESiR\\b",
     "description": "",
@@ -2262,6 +3682,16 @@
     ],
     "tests": [],
     "_id": "ESiR"
+  },
+  {
+    "name": "ETHiCS",
+    "pattern": "^(ETHiCS)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ETHiCS"
   },
   {
     "name": "EVO",
@@ -2323,6 +3753,16 @@
     "_id": "EXCiSION"
   },
   {
+    "name": "EXP",
+    "pattern": "\\[EXP\\]|-EXP\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "EXP"
+  },
+  {
     "name": "EbP",
     "pattern": "(?<=^|[\\s.-])EbP\\b",
     "description": "",
@@ -2331,6 +3771,46 @@
     ],
     "tests": [],
     "_id": "EbP"
+  },
+  {
+    "name": "Erai-Raws",
+    "pattern": "\\b(Erai-raws)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Erai-Raws"
+  },
+  {
+    "name": "EuReKA",
+    "pattern": "^(EuReKA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "EuReKA"
+  },
+  {
+    "name": "ExREN",
+    "pattern": "\\b(ExREN)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ExREN"
+  },
+  {
+    "name": "Exiled-Destiny",
+    "pattern": "\\b(Exiled-Destiny|E-D)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Exiled-Destiny"
   },
   {
     "name": "Extended Clip",
@@ -2397,6 +3877,46 @@
     "_id": "Extras"
   },
   {
+    "name": "FAV",
+    "pattern": "\\[FAV\\]|-FAV\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FAV"
+  },
+  {
+    "name": "FC",
+    "pattern": "^(FC)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FC"
+  },
+  {
+    "name": "FFF",
+    "pattern": "\\b(FFF)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FFF"
+  },
+  {
+    "name": "FGT",
+    "pattern": "^(FGT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FGT"
+  },
+  {
     "name": "FLAC",
     "pattern": "\\bFLAC(\\b|\\d)",
     "description": "",
@@ -2415,6 +3935,16 @@
     "_id": "FLAME"
   },
   {
+    "name": "FLFL",
+    "pattern": "\\b(FLFL)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FLFL"
+  },
+  {
     "name": "FLUX",
     "pattern": "(?<=^|[\\s.-])FLUX\\b",
     "description": "",
@@ -2423,6 +3953,16 @@
     ],
     "tests": [],
     "_id": "FLUX"
+  },
+  {
+    "name": "FMD",
+    "pattern": "^(FMD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FMD"
   },
   {
     "name": "FRDS",
@@ -2455,6 +3995,26 @@
     "_id": "FZHD"
   },
   {
+    "name": "FaNGDiNG0",
+    "pattern": "^(FaNGDiNG0)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FaNGDiNG0"
+  },
+  {
+    "name": "Feranki1980",
+    "pattern": "^(Feranki1980)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Feranki1980"
+  },
+  {
     "name": "FilmHD",
     "pattern": "(?<=^|[\\s.-])FilmHD\\b",
     "description": "",
@@ -2465,6 +4025,36 @@
     "_id": "FilmHD"
   },
   {
+    "name": "Final8",
+    "pattern": "\\b(Final8)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Final8"
+  },
+  {
+    "name": "Fish",
+    "pattern": "\\b((Baked|Dead|Space)Fish)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Fish"
+  },
+  {
+    "name": "Flights",
+    "pattern": "^(Flights)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Flights"
+  },
+  {
     "name": "FoRM",
     "pattern": "(?<=^|[\\s.-])FoRM\\b",
     "description": "",
@@ -2473,6 +4063,16 @@
     ],
     "tests": [],
     "_id": "FoRM"
+  },
+  {
+    "name": "Foxtrot",
+    "pattern": "\\[Foxtrot\\]|-Foxtrot\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Foxtrot"
   },
   {
     "name": "FraMeSToR",
@@ -2694,6 +4294,26 @@
     "_id": "Full Disc"
   },
   {
+    "name": "Fumi-Raws",
+    "pattern": "Fumi[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Fumi-Raws"
+  },
+  {
+    "name": "FunArts",
+    "pattern": "\\b(FunArts)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FunArts"
+  },
+  {
     "name": "GALAXY",
     "pattern": "(?<=^|[\\s.-])GALAXY\\b",
     "description": "",
@@ -2702,6 +4322,77 @@
     ],
     "tests": [],
     "_id": "GALAXY"
+  },
+  {
+    "name": "GERMini",
+    "pattern": "\\b(GERMini)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GERMini"
+  },
+  {
+    "name": "GHD",
+    "pattern": "^(GHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "GHD"
+  },
+  {
+    "name": "GHS",
+    "pattern": "\\b(GHS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GHS"
+  },
+  {
+    "name": "GNOME",
+    "pattern": "^(GNOME)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "GNOME"
+  },
+  {
+    "name": "GNOMiSSiON",
+    "pattern": "^(GNOMiSSiON)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GNOMiSSiON"
+  },
+  {
+    "name": "GPTHD",
+    "pattern": "^(GPTHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "GPTHD"
+  },
+  {
+    "name": "GS",
+    "pattern": "\\b(GS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GS"
   },
   {
     "name": "GS88",
@@ -2714,6 +4405,26 @@
     "_id": "GS88"
   },
   {
+    "name": "GSK_kun",
+    "pattern": "\\b(GSK[._-]kun)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GSK_kun"
+  },
+  {
+    "name": "GST",
+    "pattern": "\\b(GST)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GST"
+  },
+  {
     "name": "GUHZER",
     "pattern": "(?<=^|[\\s.-])GUHZER\\b",
     "description": "",
@@ -2722,6 +4433,36 @@
     ],
     "tests": null,
     "_id": "GUHZER"
+  },
+  {
+    "name": "Galator",
+    "pattern": "\\b(Galator)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Galator"
+  },
+  {
+    "name": "GalaxyRG",
+    "pattern": "\\\\b(GalaxyRG)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "GalaxyRG"
+  },
+  {
+    "name": "Gao",
+    "pattern": "\\[Gao\\]|-Gao\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Gao"
   },
   {
     "name": "Geek",
@@ -2734,6 +4475,14 @@
     "_id": "Geek"
   },
   {
+    "name": "Golumpa",
+    "pattern": "\\b(Golumpa)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Golumpa"
+  },
+  {
     "name": "HANDJOB",
     "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
     "description": "",
@@ -2742,6 +4491,26 @@
     ],
     "tests": [],
     "_id": "HANDJOB"
+  },
+  {
+    "name": "HAV1T",
+    "pattern": "\\b(HAV1T)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HAV1T"
+  },
+  {
+    "name": "HAiKU",
+    "pattern": "\\b(HAiKU)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HAiKU"
   },
   {
     "name": "HBO Max",
@@ -3400,6 +5169,36 @@
     "_id": "HDS"
   },
   {
+    "name": "HDT",
+    "pattern": "^(HDT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDT"
+  },
+  {
+    "name": "HDTime",
+    "pattern": "^(HDTime)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDTime"
+  },
+  {
+    "name": "HDWinG",
+    "pattern": "^(HDWinG)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDWinG"
+  },
+  {
     "name": "HDmux",
     "pattern": "(?<=^|[\\s.-])HDmux\\b",
     "description": "",
@@ -3410,6 +5209,16 @@
     "_id": "HDmux"
   },
   {
+    "name": "HENiL",
+    "pattern": "\\b(HENiL)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HENiL"
+  },
+  {
     "name": "HHWEB",
     "pattern": "(?<=^|[\\s.-])HHWEB\\b",
     "description": "",
@@ -3418,6 +5227,14 @@
     ],
     "tests": [],
     "_id": "HHWEB"
+  },
+  {
+    "name": "HLG",
+    "pattern": "\\b(HLG)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "HLG"
   },
   {
     "name": "HOA",
@@ -3450,6 +5267,16 @@
     "_id": "HQMUX"
   },
   {
+    "name": "HR",
+    "pattern": "\\b(HR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HR"
+  },
+  {
     "name": "HUNTJR",
     "pattern": "(?<=^|[\\s.-])HUNTJR\\b",
     "description": "",
@@ -3460,6 +5287,36 @@
     "_id": "HUNTJR"
   },
   {
+    "name": "HaiveMind",
+    "pattern": "\\b(HaiveMind)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HaiveMind"
+  },
+  {
+    "name": "Hakata Ramen",
+    "pattern": "\\b(Hakata[ .-]?Ramen)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Hakata-Ramen"
+  },
+  {
+    "name": "Hall_of_C",
+    "pattern": "\\b(Hall_of_C)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Hall_of_C"
+  },
+  {
     "name": "Hares",
     "pattern": "(?<=^|[\\s.-])Hares\\b",
     "description": "",
@@ -3468,6 +5325,46 @@
     ],
     "tests": null,
     "_id": "Hares"
+  },
+  {
+    "name": "Hark0N",
+    "pattern": "\\b(Hark0N)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Hark0N"
+  },
+  {
+    "name": "Harunatsu",
+    "pattern": "\\[Harunatsu\\]|-Harunatsu\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Harunatsu"
+  },
+  {
+    "name": "HatSubs",
+    "pattern": "\\b(HatSubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HatSubs"
+  },
+  {
+    "name": "Hatsuyuki",
+    "pattern": "\\[Hatsuyuki\\]|-Hatsuyuki\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Hatsuyuki"
   },
   {
     "name": "HiDt",
@@ -3498,6 +5395,66 @@
     ],
     "tests": [],
     "_id": "HiP"
+  },
+  {
+    "name": "HiSD",
+    "pattern": "^(HiSD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HiSD"
+  },
+  {
+    "name": "Hitoku",
+    "pattern": "\\[Hitoku\\]|-Hitoki\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Hitoku"
+  },
+  {
+    "name": "HollowRoxas",
+    "pattern": "\\b(HollowRoxas)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HollowRoxas"
+  },
+  {
+    "name": "Holomux",
+    "pattern": "\\b(Holomux)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Holomux"
+  },
+  {
+    "name": "HorribleRips",
+    "pattern": "\\b(HorribleRips)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HorribleRips"
+  },
+  {
+    "name": "HorribleSubs",
+    "pattern": "\\b(HorribleSubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HorribleSubs"
   },
   {
     "name": "Hulu",
@@ -3563,6 +5520,16 @@
     "_id": "IAMABLE"
   },
   {
+    "name": "ICEBLUE",
+    "pattern": "\\b(ICEBLUE)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ICEBLUE"
+  },
+  {
     "name": "IDE",
     "pattern": "(?<=^|[\\s.-])IDE\\b",
     "description": "",
@@ -3571,6 +5538,16 @@
     ],
     "tests": [],
     "_id": "IDE"
+  },
+  {
+    "name": "IK",
+    "pattern": "\\b(IK)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "IK"
   },
   {
     "name": "IMAX Enhanced",
@@ -3725,6 +5702,96 @@
     "_id": "IMAX"
   },
   {
+    "name": "Impatience",
+    "pattern": "\\[Impatience\\]|-Impatience\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Impatience"
+  },
+  {
+    "name": "Inka-Subs",
+    "pattern": "\\b(Inka-Subs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Inka-Subs"
+  },
+  {
+    "name": "IrizaRaws",
+    "pattern": "Iriza[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "IrizaRaws"
+  },
+  {
+    "name": "Iznjie Biznjie",
+    "pattern": "\\b(Iznjie[ .-]Biznjie)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Iznjie_Biznjie"
+  },
+  {
+    "name": "JETIX",
+    "pattern": "^(JETIX)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "JETIX"
+  },
+  {
+    "name": "JFF",
+    "pattern": "^(JFF)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "JFF"
+  },
+  {
+    "name": "JacobSwaggedUp",
+    "pattern": "\\b(JacobSwaggedUp)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "JacobSwaggedUp"
+  },
+  {
+    "name": "Johnny-englishsubs",
+    "pattern": "\\b(Johnny-englishsubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Johnny-englishsubs"
+  },
+  {
+    "name": "Judgement",
+    "pattern": "\\[Judgment\\]|-Judgment\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Judgement"
+  },
+  {
     "name": "JustWatch",
     "pattern": "(?<=^|[\\s.-])JustWatch\\b",
     "description": "",
@@ -3735,13 +5802,23 @@
     "_id": "JustWatch"
   },
   {
-    "name": "KAN3D2M",
-    "pattern": "(?<=^|[\\s.-])KAN3D2M\\b",
+    "name": "JySzE",
+    "pattern": "\\b(JySzE)\\b",
     "description": "",
     "tags": [
       "Release Group"
     ],
-    "tests": null,
+    "tests": [],
+    "_id": "JySzE"
+  },
+  {
+    "name": "KAN3D2M",
+    "pattern": "\\b(KAN3D2M)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
     "_id": "KAN3D2M"
   },
   {
@@ -3755,6 +5832,26 @@
     "_id": "KASHMiR"
   },
   {
+    "name": "KAWAiREMUX",
+    "pattern": "\\b(KAWAiREMUX)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KAWAiREMUX"
+  },
+  {
+    "name": "KC",
+    "pattern": "^(KC)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "KC"
+  },
+  {
     "name": "KCW",
     "pattern": "\\b(KCW|Kocowa)\\b",
     "description": "Kocowa is an American over-the-top streaming service headquartered in Los Angeles as a joint venture between the top three Korean broadcast networks to provide Korean entertainment including K-dramas, K-reality, K-variety, and K-pop to the Americas and all with multi-language subtitles.",
@@ -3764,6 +5861,46 @@
       "WEBRip"
     ],
     "_id": "KCW"
+  },
+  {
+    "name": "KEKMASTERS",
+    "pattern": "\\b(KEKMASTERS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KEKMASTERS"
+  },
+  {
+    "name": "KH",
+    "pattern": "\\b(KH)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KH"
+  },
+  {
+    "name": "KHN",
+    "pattern": "^(KHN)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KHN"
+  },
+  {
+    "name": "KIRA",
+    "pattern": "^(KIRA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "KIRA"
   },
   {
     "name": "KNiVES",
@@ -3776,6 +5913,140 @@
     "_id": "KNiVES"
   },
   {
+    "name": "KQRM",
+    "pattern": "\\b(KQRM)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KQRM"
+  },
+  {
+    "name": "KRP",
+    "pattern": "\\b(KRP)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KRP"
+  },
+  {
+    "name": "KRaLiMaRKo",
+    "pattern": "^(KRaLiMaRKo)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KRaLiMaRKo"
+  },
+  {
+    "name": "KS (Not Dual Audio)",
+    "pattern": "^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\\+EN|EN\\+(JA|ZH|KO))).*\\bKS\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "KS (Not Dual Audio)"
+  },
+  {
+    "name": "KaiDubs (Not Dual Audio)",
+    "pattern": "^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\\+EN|EN\\+(JA|ZH|KO))).*\\b(KaiDubs)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "KaiDubs (Not Dual Audio)"
+  },
+  {
+    "name": "Kaizoku",
+    "pattern": "\\b(AnimeKaizoku)\\b|\\[Kaizoku\\]|-Kaizoku\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kaizoku"
+  },
+  {
+    "name": "Kaleido",
+    "pattern": "\\b(Kaleido)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kaleido"
+  },
+  {
+    "name": "Kametsu",
+    "pattern": "\\b(Kametsu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kametsu"
+  },
+  {
+    "name": "KamiFS",
+    "pattern": "\\b(KamiFS)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "KamiFS"
+  },
+  {
+    "name": "Kanjouteki",
+    "pattern": "\\b(Kanjouteki)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kanjouteki"
+  },
+  {
+    "name": "Kantai",
+    "pattern": "\\[Kantai\\]|-Kantai\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kantai"
+  },
+  {
+    "name": "Kawaiika-Raws",
+    "pattern": "Kawaiika[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kawaiika-Raws"
+  },
+  {
+    "name": "KiMCHI",
+    "pattern": "^(KiMCHI)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KiMCHI"
+  },
+  {
+    "name": "KiNGDOM",
+    "pattern": "^(KiNGDOM)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "KiNGDOM"
+  },
+  {
     "name": "KiNGS",
     "pattern": "(?<=^|[\\s.-])KiNGS\\b",
     "description": "",
@@ -3786,14 +6057,85 @@
     "_id": "KiNGS"
   },
   {
+    "name": "Kirion",
+    "pattern": "\\b(Kirion)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kirion"
+  },
+  {
     "name": "Kitsune",
-    "pattern": "(?<=^|[\\s.-])Kitsune\\b",
+    "pattern": "^(Kitsune)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "Kitsune"
+  },
+  {
+    "name": "KiyoshiStar",
+    "pattern": "\\b(KS|KiyoshiStar)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KiyoshiStar"
+  },
+  {
+    "name": "Koi-Raws",
+    "pattern": "Koi[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Koi-Raws"
+  },
+  {
+    "name": "Koitern",
+    "pattern": "\\b(Koitern)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Koitern"
+  },
+  {
+    "name": "Koten_Gars",
+    "pattern": "\\b(Koten[ ._-]Gars)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Koten_Gars"
+  },
+  {
+    "name": "Kulot",
+    "pattern": "\\b(Kulot)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Kulot"
+  },
+  {
+    "name": "L0SERNIGHT",
+    "pattern": "^(L0SERNIGHT)$",
     "description": "",
     "tags": [
       "Release Group"
     ],
     "tests": null,
-    "_id": "Kitsune"
+    "_id": "L0SERNIGHT"
   },
   {
     "name": "LAMA",
@@ -3816,6 +6158,26 @@
     "_id": "LAZARUS"
   },
   {
+    "name": "LAZY",
+    "pattern": "^(LAZY)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LAZY"
+  },
+  {
+    "name": "LCE",
+    "pattern": "\\b(LCE)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LCE"
+  },
+  {
     "name": "LEGi0N",
     "pattern": "(?<=^|[\\s.-])LEGi0N\\b",
     "description": "",
@@ -3836,6 +6198,16 @@
     "_id": "LSt"
   },
   {
+    "name": "LUCY",
+    "pattern": "^(LUCY)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LUCY"
+  },
+  {
     "name": "LYS",
     "pattern": "(?<=^|[\\s.-])LYS\\b",
     "description": "",
@@ -3846,6 +6218,56 @@
     "_id": "LYS"
   },
   {
+    "name": "LYS1TH3A",
+    "pattern": "\\b(LYS1TH3A)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LYS1TH3A"
+  },
+  {
+    "name": "LazyRemux",
+    "pattern": "\\b(LazyRemux)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LazyRemux"
+  },
+  {
+    "name": "Leffe",
+    "pattern": "^(Leffe)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Leffe"
+  },
+  {
+    "name": "Legion",
+    "pattern": "\\[Legion\\]|-Legion\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Legion"
+  },
+  {
+    "name": "LiGaS",
+    "pattern": "^(LiGaS)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LiGaS"
+  },
+  {
     "name": "LiNG",
     "pattern": "(?<=^|[\\s.-])LiNG\\b",
     "description": "",
@@ -3854,6 +6276,46 @@
     ],
     "tests": [],
     "_id": "LiNG"
+  },
+  {
+    "name": "Lia",
+    "pattern": "\\[Lia\\]|-Lia\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Lia"
+  },
+  {
+    "name": "Liber8",
+    "pattern": "^(Liber8)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Liber8"
+  },
+  {
+    "name": "Licca",
+    "pattern": "\\b(Licca)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Licca"
+  },
+  {
+    "name": "Lilith-Raws",
+    "pattern": "Lilith[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Lilith-Raws"
   },
   {
     "name": "LittleBakas",
@@ -3886,6 +6348,36 @@
     "_id": "LolHD"
   },
   {
+    "name": "LoliHouse",
+    "pattern": "\\b(LoliHouse)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LoliHouse"
+  },
+  {
+    "name": "LostYears",
+    "pattern": "\\b(LostYears)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LostYears"
+  },
+  {
+    "name": "LowPower-Raws",
+    "pattern": "LowPower[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "LowPower-Raws"
+  },
+  {
     "name": "Lucifer",
     "pattern": "(?<=^|[\\s.-])Lucifer\\b",
     "description": "",
@@ -3896,6 +6388,26 @@
     "_id": "Lucifer"
   },
   {
+    "name": "Lulu",
+    "pattern": "\\[Lulu\\]|-Lulu\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Lulu"
+  },
+  {
+    "name": "M@nI",
+    "pattern": "\\b(M@nI)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "M@nI"
+  },
+  {
     "name": "MALUS",
     "pattern": "(?<=^|[\\s.-])MALUS\\b",
     "description": "",
@@ -3904,6 +6416,86 @@
     ],
     "tests": null,
     "_id": "MALUS"
+  },
+  {
+    "name": "MC",
+    "pattern": "\\b(MC)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MC"
+  },
+  {
+    "name": "MCLR",
+    "pattern": "\\b(MCLR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MCLR"
+  },
+  {
+    "name": "MCR",
+    "pattern": "\\b(MCR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MCR"
+  },
+  {
+    "name": "MD",
+    "pattern": "\\[MD\\]|-MD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MD"
+  },
+  {
+    "name": "MGD",
+    "pattern": "\\b(MGD)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MGD"
+  },
+  {
+    "name": "MK",
+    "pattern": "\\b(MK)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MK"
+  },
+  {
+    "name": "MKVULTRA",
+    "pattern": "\\b(MKVULTRA)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MKVULTRA"
+  },
+  {
+    "name": "MTBB",
+    "pattern": "\\b(MTBB)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MTBB"
   },
   {
     "name": "MTeam",
@@ -3934,6 +6526,36 @@
     ],
     "tests": null,
     "_id": "MainFrame"
+  },
+  {
+    "name": "Man.K",
+    "pattern": "\\b(Man\\.K)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Man.K"
+  },
+  {
+    "name": "MarkII",
+    "pattern": "^(MarkII)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MarkII"
+  },
+  {
+    "name": "Matsya",
+    "pattern": "\\b(Matsya)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Matsya"
   },
   {
     "name": "Max",
@@ -4011,6 +6633,46 @@
     "_id": "Max"
   },
   {
+    "name": "Maximus",
+    "pattern": "\\[Maximus\\]|-Maximus\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Maximus"
+  },
+  {
+    "name": "MeGusta",
+    "pattern": "^(MeGusta)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MeGusta"
+  },
+  {
+    "name": "Metal",
+    "pattern": "\\[Metal\\]|-Metal\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Metal"
+  },
+  {
+    "name": "Metaljerk",
+    "pattern": "\\b(Metaljerk)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Metaljerk"
+  },
+  {
     "name": "MiMiC",
     "pattern": "(?<=^|[\\s.-])MiMiC\\b",
     "description": "",
@@ -4019,6 +6681,76 @@
     ],
     "tests": null,
     "_id": "MiMiC"
+  },
+  {
+    "name": "MiU",
+    "pattern": "^(MiU)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MiU"
+  },
+  {
+    "name": "MiniFreeza",
+    "pattern": "\\b(MiniFreeza)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MiniFreeza"
+  },
+  {
+    "name": "MiniMTBB",
+    "pattern": "\\b(MiniMTBB)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MiniMTBB"
+  },
+  {
+    "name": "MiniTheatre",
+    "pattern": "\\b(MiniTheatre)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MiniTheatre"
+  },
+  {
+    "name": "MinisCuba",
+    "pattern": "\\b(MinisCuba)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MinisCuba"
+  },
+  {
+    "name": "Mites",
+    "pattern": "\\b(Mites)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Mites"
+  },
+  {
+    "name": "Modders Bay",
+    "pattern": "\\b(Modders[ .-]?Bay)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Modders-Bay"
   },
   {
     "name": "MovieMan",
@@ -4163,6 +6895,46 @@
     "_id": "Movies Anywhere"
   },
   {
+    "name": "Mr. Deadpool",
+    "pattern": "\\b(Mr\\.Deadpool)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Mr.Deadpool"
+  },
+  {
+    "name": "MySiLU",
+    "pattern": "^(MySiLU)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MySiLU"
+  },
+  {
+    "name": "Mysteria",
+    "pattern": "\\[Mysteria\\]|-Mysteria\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Mysteria"
+  },
+  {
+    "name": "NC-Raws",
+    "pattern": "NC[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NC-Raws"
+  },
+  {
     "name": "NCmt",
     "pattern": "(?<=^|[\\s.-])NCmt\\b",
     "description": "",
@@ -4171,6 +6943,26 @@
     ],
     "tests": [],
     "_id": "NCmt"
+  },
+  {
+    "name": "NH",
+    "pattern": "\\b(NH)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NH"
+  },
+  {
+    "name": "NINJACENTRAL",
+    "pattern": "^(NINJACENTRAL)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NINJACENTRAL"
   },
   {
     "name": "NOSiViD",
@@ -4183,6 +6975,46 @@
     "_id": "NOSiViD"
   },
   {
+    "name": "NPC",
+    "pattern": "\\[NPC\\]|-NPC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NPC"
+  },
+  {
+    "name": "NPMS",
+    "pattern": "^(NPMS)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NPMS"
+  },
+  {
+    "name": "NS",
+    "pattern": "\\b(NS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NS"
+  },
+  {
+    "name": "NSDAB",
+    "pattern": "\\b(NSDAB)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NSDAB"
+  },
+  {
     "name": "NTG",
     "pattern": "(?<=^|[\\s.-])NTG\\b",
     "description": "",
@@ -4191,6 +7023,16 @@
     ],
     "tests": [],
     "_id": "NTG"
+  },
+  {
+    "name": "NTRM",
+    "pattern": "\\b(NTRM)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NTRM"
   },
   {
     "name": "NTb",
@@ -4228,6 +7070,56 @@
       }
     ],
     "_id": "NTb"
+  },
+  {
+    "name": "NYH",
+    "pattern": "^(NYH)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NYH"
+  },
+  {
+    "name": "NanDesuKa",
+    "pattern": "\\b(NanDesuKa)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NanDesuKa"
+  },
+  {
+    "name": "NanakoRaws",
+    "pattern": "Nanako[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NanakoRaws"
+  },
+  {
+    "name": "NemDiggers",
+    "pattern": "\\b(NemDiggers)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NemDiggers"
+  },
+  {
+    "name": "Netaro",
+    "pattern": "\\b(Netaro)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Netaro"
   },
   {
     "name": "Netflix",
@@ -4296,6 +7188,66 @@
       }
     ],
     "_id": "Netflix"
+  },
+  {
+    "name": "New-raws",
+    "pattern": "New[ ._-]?(raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "New-raws"
+  },
+  {
+    "name": "NhaNc3",
+    "pattern": "^(NhaNc3)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "NhaNc3"
+  },
+  {
+    "name": "Nii-sama",
+    "pattern": "\\[Nii-sama\\]|-Nii-sama\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Nii-sama"
+  },
+  {
+    "name": "Nishi-Taku",
+    "pattern": "\\b(Nishi-Taku)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Nishi-Taku"
+  },
+  {
+    "name": "NoGroup",
+    "pattern": "NoGr(ou)?p",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "NoGroup"
+  },
+  {
+    "name": "Nokou",
+    "pattern": "\\b(Nokou)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Nokou"
   },
   {
     "name": "Non Retail HDR Formats",
@@ -4450,6 +7402,16 @@
     "_id": "Non Retail HDR Groups"
   },
   {
+    "name": "NoobSubs",
+    "pattern": "\\b(N[eo][wo]b[ ._-]?Subs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NoobSubs"
+  },
+  {
     "name": "NorTekst",
     "pattern": "(?<=^|[\\s.-])NorTekst\\b",
     "description": "",
@@ -4458,6 +7420,184 @@
     ],
     "tests": null,
     "_id": "NorTekst"
+  },
+  {
+    "name": "Not 3.0ch",
+    "pattern": "[^0-9]3[ .]0\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "Audio"
+    ],
+    "tests": [],
+    "_id": "Not 3.0ch"
+  },
+  {
+    "name": "Not 4.0ch",
+    "pattern": "[^0-9]4[ .]0\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "Audio"
+    ],
+    "tests": [],
+    "_id": "Not 4.0ch"
+  },
+  {
+    "name": "Not DV HDR10",
+    "pattern": "^(?=.*\\\\b(DV|DoVi|Dolby[ .]?V(ision)?)\\\\b)(?=.*\\\\b(HDR(10)?(P(lus)?)?)\\\\b)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Not DV HDR10"
+  },
+  {
+    "name": "Not DV HDR10Plus",
+    "pattern": "^(?=.*\\\\b(DV|DoVi|Dolby[ .]?V(ision)?)\\\\b)(?=.*\\\\b((HDR10(?=(P(lus)?)\\\\b|\\\\+))))",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Not DV HDR10Plus"
+  },
+  {
+    "name": "Not DV HLG",
+    "pattern": "\\b(DV[ .]HLG)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Not DV HLG"
+  },
+  {
+    "name": "Not DV SDR",
+    "pattern": "\\b(DV[ .]SDR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Not DV SDR"
+  },
+  {
+    "name": "Not DV",
+    "pattern": "\\b(dv|dovi|dolby[ .]?v(ision)?)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not DV"
+  },
+  {
+    "name": "Not HDR",
+    "pattern": "\\bHDR(\\b|\\d)",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not HDR"
+  },
+  {
+    "name": "Not HDR10+",
+    "pattern": "\\bHDR10(\\+|P(lus)?\\b)",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not HDR10+"
+  },
+  {
+    "name": "Not HDR10",
+    "pattern": "\\bHDR10(?!\\+|Plus)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not HDR10"
+  },
+  {
+    "name": "Not HLG",
+    "pattern": "\\b(HLG)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not HLG"
+  },
+  {
+    "name": "Not High Channel Count",
+    "pattern": "[^0-9][5-9][ .][0-1]\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "Audio"
+    ],
+    "tests": [],
+    "_id": "Not High Channel Count"
+  },
+  {
+    "name": "Not Hulu",
+    "pattern": "\\b(hulu)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not Hulu"
+  },
+  {
+    "name": "Not Mono",
+    "pattern": "[^0-9]1[ .]0\\\\b|\\\\bMono\\\\b|\\\\[PCM \\\\]",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "Audio"
+    ],
+    "tests": [],
+    "_id": "Not Mono"
+  },
+  {
+    "name": "Not PQ",
+    "pattern": "\\\\b(PQ)\\\\b",
+    "description": "",
+    "tags": [
+      "Enhancement"
+    ],
+    "tests": [],
+    "_id": "Not PQ"
+  },
+  {
+    "name": "Not RlsGrp",
+    "pattern": "\\b(Flights)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not RlsGrp"
+  },
+  {
+    "name": "Not SDR",
+    "pattern": "\\bSDR(\\b|\\d)",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Not SDR"
+  },
+  {
+    "name": "Not-Vodes",
+    "pattern": "\\[Not-Vodes\\]|-Not-Vodes\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Not-Vodes"
+  },
+  {
+    "name": "Noyr",
+    "pattern": "\\b(Noyr)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Noyr"
   },
   {
     "name": "NyHD",
@@ -4470,6 +7610,26 @@
     "_id": "NyHD"
   },
   {
+    "name": "Nyanpasu",
+    "pattern": "\\b(Nyanpasu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Nyanpasu"
+  },
+  {
+    "name": "OFT",
+    "pattern": "^(OFT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "OFT"
+  },
+  {
     "name": "ORiGEN",
     "pattern": "(?<=^|[\\s.-])ORiGEN\\b",
     "description": "",
@@ -4478,6 +7638,56 @@
     ],
     "tests": [],
     "_id": "ORiGEN"
+  },
+  {
+    "name": "OZR",
+    "pattern": "\\b(OZR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "OZR"
+  },
+  {
+    "name": "Ohys-Raws",
+    "pattern": "Ohys[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Ohys-Raws"
+  },
+  {
+    "name": "Okay-Subs",
+    "pattern": "\\b(Okay-Subs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Okay-Subs"
+  },
+  {
+    "name": "OldCastle",
+    "pattern": "\\b(OldCastle)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "OldCastle"
+  },
+  {
+    "name": "OnDeed",
+    "pattern": "\\b(OnDeed)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "OnDeed"
   },
   {
     "name": "Open Matte",
@@ -4537,6 +7747,16 @@
     "_id": "Open Matte"
   },
   {
+    "name": "Orphan",
+    "pattern": "\\[Orphan\\]|-Orphan\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Orphan"
+  },
+  {
     "name": "P0W4HD",
     "pattern": "(?<=^|[\\s.-])P0W4HD\\b",
     "description": "",
@@ -4545,6 +7765,26 @@
     ],
     "tests": [],
     "_id": "P0W4HD"
+  },
+  {
+    "name": "PAS",
+    "pattern": "\\b(PAS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PAS"
+  },
+  {
+    "name": "PATOMiEL",
+    "pattern": "^(PATOMiEL)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PATOMiEL"
   },
   {
     "name": "PCM",
@@ -4565,6 +7805,34 @@
     "_id": "PHOCiS"
   },
   {
+    "name": "PHOENiX",
+    "pattern": "^(PHOENiX)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PHOENiX"
+  },
+  {
+    "name": "PQ",
+    "pattern": "\\b(PQ)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "PQ"
+  },
+  {
+    "name": "PRODJi",
+    "pattern": "^(PRODJi)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PRODJi"
+  },
+  {
     "name": "PRiSTiNE",
     "pattern": "(?<=^|[\\s.-])PRiSTiNE\\b",
     "description": "",
@@ -4575,6 +7843,26 @@
     "_id": "PRiSTiNE"
   },
   {
+    "name": "PSA",
+    "pattern": "^(PSA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PSA"
+  },
+  {
+    "name": "PSiG",
+    "pattern": "^(PSiG)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PSiG"
+  },
+  {
     "name": "PTH",
     "pattern": "(?<=^|[\\s.-])PTH\\b",
     "description": "",
@@ -4583,6 +7871,16 @@
     ],
     "tests": null,
     "_id": "PTH"
+  },
+  {
+    "name": "PTNK",
+    "pattern": "^(PTNK)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PTNK"
   },
   {
     "name": "PTer",
@@ -4651,6 +7949,46 @@
       }
     ],
     "_id": "PTerWEB"
+  },
+  {
+    "name": "Pahe",
+    "pattern": "Pahe(\\.(ph|in))?\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Pahe"
+  },
+  {
+    "name": "Pandoratv-Raws",
+    "pattern": "Pandoratv[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pandoratv-Raws"
+  },
+  {
+    "name": "Pantsu",
+    "pattern": "\\[Pantsu\\]|-Pantsu\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pantsu"
+  },
+  {
+    "name": "Pao",
+    "pattern": "\\[Pao\\]|-Pao\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pao"
   },
   {
     "name": "Paramount+",
@@ -4798,6 +8136,96 @@
     "_id": "Penumbra"
   },
   {
+    "name": "PiRaTeS",
+    "pattern": "^(PiRaTeS)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PiRaTeS"
+  },
+  {
+    "name": "Pixel",
+    "pattern": "\\[Pixel\\]|-Pixel\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pixel"
+  },
+  {
+    "name": "Pizza",
+    "pattern": "\\[Pizza\\]|-Pizza\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pizza"
+  },
+  {
+    "name": "Plex Friendly",
+    "pattern": "\\b(Plex[ .-]?Friendly)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Plex-Friendly"
+  },
+  {
+    "name": "PmP",
+    "pattern": "^(PmP)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PmP"
+  },
+  {
+    "name": "Pn8",
+    "pattern": "\\b(Pn8)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pn8"
+  },
+  {
+    "name": "PnPSubs",
+    "pattern": "\\b(PnPSubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PnPSubs"
+  },
+  {
+    "name": "Polarwindz",
+    "pattern": "\\b(Polarwindz)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Polarwindz"
+  },
+  {
+    "name": "Pookie",
+    "pattern": "\\b(Pookie)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Pookie"
+  },
+  {
     "name": "Positive",
     "pattern": "(?<=^|[\\s.-])Positive\\b",
     "description": "",
@@ -4806,6 +8234,24 @@
     ],
     "tests": [],
     "_id": "Positive"
+  },
+  {
+    "name": "Project-gxs",
+    "pattern": "\\b(Project-gxs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Project-gxs"
+  },
+  {
+    "name": "Proper",
+    "pattern": "\\b(Proper)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Proper"
   },
   {
     "name": "PussyFoot",
@@ -4818,6 +8264,56 @@
     "_id": "PussyFoot"
   },
   {
+    "name": "PuyaSubs",
+    "pattern": "\\b(PuyaSubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "PuyaSubs"
+  },
+  {
+    "name": "QCE",
+    "pattern": "\\b(QCE)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "QCE"
+  },
+  {
+    "name": "QOQ",
+    "pattern": "^(QOQ)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "QOQ"
+  },
+  {
+    "name": "QaS",
+    "pattern": "\\b(QAS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "QaS"
+  },
+  {
+    "name": "Quetzal",
+    "pattern": "\\b(Quetzal)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Quetzal"
+  },
+  {
     "name": "R",
     "pattern": "(?<=^|[\\s.-])R\\b",
     "description": "",
@@ -4826,6 +8322,36 @@
     ],
     "tests": null,
     "_id": "R"
+  },
+  {
+    "name": "RAI",
+    "pattern": "\\b(RAI)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RAI"
+  },
+  {
+    "name": "RARBG",
+    "pattern": "^(RARBG)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "RARBG"
+  },
+  {
+    "name": "RDN",
+    "pattern": "^(RDN)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "RDN"
   },
   {
     "name": "REBORN",
@@ -4838,6 +8364,86 @@
     "_id": "REBORN"
   },
   {
+    "name": "REVO",
+    "pattern": "\\b(REVO)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "REVO"
+  },
+  {
+    "name": "RH",
+    "pattern": "\\b(RH)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RH"
+  },
+  {
+    "name": "RMX",
+    "pattern": "\\b(RMX)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RMX"
+  },
+  {
+    "name": "ROCCaT",
+    "pattern": "^(ROCCaT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ROCCaT"
+  },
+  {
+    "name": "RTFM",
+    "pattern": "^(RTFM)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RTFM"
+  },
+  {
+    "name": "RTN",
+    "pattern": "^(RTN)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RTN"
+  },
+  {
+    "name": "RU4HD",
+    "pattern": "^(RU4HD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "RU4HD"
+  },
+  {
+    "name": "Raizel",
+    "pattern": "\\b(Raizel)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Raizel"
+  },
+  {
     "name": "RandH",
     "pattern": "(?<=^|[\\s.-])RandH\\b",
     "description": "",
@@ -4846,6 +8452,76 @@
     ],
     "tests": null,
     "_id": "RandH"
+  },
+  {
+    "name": "Rando235",
+    "pattern": "\\b(Rando235)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Rando235"
+  },
+  {
+    "name": "Ranger",
+    "pattern": "\\[Ranger\\]|-Ranger\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Ranger"
+  },
+  {
+    "name": "Rapta",
+    "pattern": "\\[Rapta\\]|-Rapta\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Rapta"
+  },
+  {
+    "name": "Rasetsu",
+    "pattern": "\\b(Rasetsu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Rasetsu"
+  },
+  {
+    "name": "Raw Files",
+    "pattern": "\\b(M2TS|BDMV|BDVD)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Raw Files"
+  },
+  {
+    "name": "Raws-Maji",
+    "pattern": "\\b(Raws-Maji)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Raws-Maji"
+  },
+  {
+    "name": "Raze",
+    "pattern": "\\[Raze\\]|-Raze\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Raze"
   },
   {
     "name": "ReQuEsT",
@@ -4866,6 +8542,26 @@
     ],
     "tests": null,
     "_id": "ReaLHD"
+  },
+  {
+    "name": "Reaktor",
+    "pattern": "\\b(Reaktor)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Reaktor"
+  },
+  {
+    "name": "RedBlade",
+    "pattern": "\\b(RedBlade)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RedBlade"
   },
   {
     "name": "Remux",
@@ -4893,6 +8589,17 @@
       }
     ],
     "_id": "Remux"
+  },
+  {
+    "name": "Repack",
+    "pattern": "\\b(Repack)\\b",
+    "description": "",
+    "tags": [
+      "Repack",
+      "Flag"
+    ],
+    "tests": [],
+    "_id": "Repack"
   },
   {
     "name": "Repack1",
@@ -5255,6 +8962,64 @@
     "_id": "Repack3"
   },
   {
+    "name": "Rerip",
+    "pattern": "\\b(Rerip)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Rerip"
+  },
+  {
+    "name": "Reza",
+    "pattern": "\\b(Reza)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Reza"
+  },
+  {
+    "name": "RiffTrax",
+    "pattern": "^(Rifftrax)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "RiffTrax"
+  },
+  {
+    "name": "RightShiftBy2",
+    "pattern": "\\b(RightShiftBy2)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RightShiftBy2"
+  },
+  {
+    "name": "Rip Time",
+    "pattern": "\\b(Rip[ .-]?Time)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Rip-Time"
+  },
+  {
+    "name": "RlsGrp (Missing HDR)",
+    "pattern": "\\\\b(FraMeSToR|HQMUX|SiCFoI)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "RlsGrp-(Missing-HDR)"
+  },
+  {
     "name": "Roku",
     "pattern": "\\b(1080p[ .\\-_]ROKU|ROKU[ .\\-_]1080p)\\b",
     "description": "The Roku Channel is an over-the-top video streaming service available in the U.S., Canada, Mexico and the U.K. Launched in September 2017. The Roku Channel offers over 400 free live linear TV channels, more than 80,000 free movies and shows, and access to paid content.",
@@ -5318,6 +9083,56 @@
     "_id": "SA89"
   },
   {
+    "name": "SAD",
+    "pattern": "\\[SAD\\]|-SAD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SAD"
+  },
+  {
+    "name": "SANTi",
+    "pattern": "^(SANTi)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SANTi"
+  },
+  {
+    "name": "SCP-2223",
+    "pattern": "\\b(SCP-2223)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SCP-2223"
+  },
+  {
+    "name": "SCY",
+    "pattern": "\\b(SCY)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SCY"
+  },
+  {
+    "name": "SDCC",
+    "pattern": "^(SDCC)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SDCC"
+  },
+  {
     "name": "SDR",
     "pattern": "\\bSDR\\b",
     "description": "Explicitly matches labelled Standard Dynamic Range, i.e. \"SDR\" ",
@@ -5365,6 +9180,76 @@
     "_id": "SESKAPiLE"
   },
   {
+    "name": "SEV",
+    "pattern": "\\b(SEV)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SEV"
+  },
+  {
+    "name": "SEiN",
+    "pattern": "\\[SEiN\\]|-SEiN\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SEiN"
+  },
+  {
+    "name": "SHD",
+    "pattern": "^(SHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SHD"
+  },
+  {
+    "name": "SHFS",
+    "pattern": "\\b(SHFS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SHFS"
+  },
+  {
+    "name": "SHiN-gx",
+    "pattern": "\\b(SHiN-gx)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SHiN-gx"
+  },
+  {
+    "name": "SLAX",
+    "pattern": "\\b(SLAX)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SLAX"
+  },
+  {
+    "name": "SLiGNOME",
+    "pattern": "^(SLiGNOME)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SLiGNOME"
+  },
+  {
     "name": "SM737",
     "pattern": "(?<=^|[\\s.-])SM737\\b",
     "description": "",
@@ -5407,6 +9292,26 @@
     ],
     "tests": [],
     "_id": "SMURF"
+  },
+  {
+    "name": "SNSbu",
+    "pattern": "\\b(SNSbu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SNSbu"
+  },
+  {
+    "name": "SOLA",
+    "pattern": "\\[SOLA\\]|-SOLA\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SOLA"
   },
   {
     "name": "SOP",
@@ -5463,6 +9368,451 @@
     "_id": "SPHD"
   },
   {
+    "name": "SPiRiT",
+    "pattern": "^(SPiRiT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SPiRiT"
+  },
+  {
+    "name": "SQP - AAC",
+    "pattern": "\\bAAC(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - AAC"
+  },
+  {
+    "name": "SQP - ATMOS1",
+    "pattern": "\\b(ATMOS|CtrlHD|W4NK3R|DON)(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - ATMOS1"
+  },
+  {
+    "name": "SQP - ATMOS2",
+    "pattern": "\\bATMOS(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - ATMOS2"
+  },
+  {
+    "name": "SQP - ATMOS3",
+    "pattern": "\\b(ATMOS|DDPA)(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - ATMOS3"
+  },
+  {
+    "name": "SQP - BHDStudio",
+    "pattern": "^(BHDStudio)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - BHDStudio"
+  },
+  {
+    "name": "SQP - Basic DTS",
+    "pattern": "\\bDTS(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Basic DTS"
+  },
+  {
+    "name": "SQP - Basic Dolby Digital",
+    "pattern": "\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Basic Dolby Digital"
+  },
+  {
+    "name": "SQP - DTS X",
+    "pattern": "\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456]))",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - DTS X"
+  },
+  {
+    "name": "SQP - DTS-ES",
+    "pattern": "dts[-. ]?es\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - DTS-ES"
+  },
+  {
+    "name": "SQP - DTS-HD HRA",
+    "pattern": "dts[-. ]?(hd[. ]?)?(hra?|hi\\b)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - DTS-HD HRA"
+  },
+  {
+    "name": "SQP - DTS-HD MA",
+    "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - DTS-HD MA"
+  },
+  {
+    "name": "SQP - Dolby Digital Plus",
+    "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac-?3)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Dolby Digital Plus"
+  },
+  {
+    "name": "SQP - FLAC",
+    "pattern": "\\bFLAC(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - FLAC"
+  },
+  {
+    "name": "SQP - Not 6.1 Surround",
+    "pattern": "[^0-9]6[ .][0-1]",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not 6.1 Surround"
+  },
+  {
+    "name": "SQP - Not AAC",
+    "pattern": "\\bAAC(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not AAC"
+  },
+  {
+    "name": "SQP - Not Basic DTS",
+    "pattern": "DTS[ .]?[1-9]",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not Basic DTS"
+  },
+  {
+    "name": "SQP - Not Basic Dolby Digital",
+    "pattern": "\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not Basic Dolby Digital"
+  },
+  {
+    "name": "SQP - Not DTS X",
+    "pattern": "\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456]))",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS X"
+  },
+  {
+    "name": "SQP - Not DTS-ES",
+    "pattern": "dts.?es",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS-ES"
+  },
+  {
+    "name": "SQP - Not DTS-HD HRA/ES",
+    "pattern": "dts[-. ]?(es|(hd[. ]?)?(hr|hi))",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS-HD HRA-ES"
+  },
+  {
+    "name": "SQP - Not DTS-HD HRA/ES",
+    "pattern": "dts[-. ]?(es|(hd[. ]?)?(hr|hi))",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS-HD HRA_ES"
+  },
+  {
+    "name": "SQP - Not DTS-HD",
+    "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS-HD"
+  },
+  {
+    "name": "SQP - Not DTS",
+    "pattern": "\\bDTS(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not DTS"
+  },
+  {
+    "name": "SQP - Not Dolby Digital Plus",
+    "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac-?3)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not Dolby Digital Plus"
+  },
+  {
+    "name": "SQP - Not FLAC",
+    "pattern": "\\bFLAC(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not FLAC"
+  },
+  {
+    "name": "SQP - Not PCM",
+    "pattern": "\\b(l?)PCM(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not PCM"
+  },
+  {
+    "name": "SQP - Not RlsGrp (Atmos Only)",
+    "pattern": "\\b(W4NK3R|HQMUX)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not RlsGrp (Atmos Only)"
+  },
+  {
+    "name": "SQP - Not RlsGrp (TrueHD only)",
+    "pattern": "\\b(CtrlHD|W4NK3R|DON)\\b",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not RlsGrp (TrueHD only)"
+  },
+  {
+    "name": "SQP - Not TrueHD/ATMOS1",
+    "pattern": "True[ .-]?HD|\\bATMOS(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not TrueHD-ATMOS1"
+  },
+  {
+    "name": "SQP - Not TrueHD/ATMOS2",
+    "pattern": "\\b(True[ .-]?HD|ATMOS|DDPA)(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not TrueHD-ATMOS2"
+  },
+  {
+    "name": "SQP - Not TrueHD",
+    "pattern": "True[ .-]?HD",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - Not TrueHD"
+  },
+  {
+    "name": "SQP - PCM",
+    "pattern": "\\b(l?)PCM(\\b|\\d)",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - PCM"
+  },
+  {
+    "name": "SQP - TrueHD1",
+    "pattern": "True[ .-]?HD|W4NK3R|HQMUX",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - TrueHD1"
+  },
+  {
+    "name": "SQP - TrueHD2",
+    "pattern": "True[ .-]?HD",
+    "description": "",
+    "tags": [
+      "Audio",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - TrueHD2"
+  },
+  {
+    "name": "SQP - hallowed",
+    "pattern": "^(hallowed)$",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "TRaSH"
+    ],
+    "tests": [],
+    "_id": "SQP - hallowed"
+  },
+  {
+    "name": "SQP - x265/HEVC",
+    "pattern": "[xh][ ._-]?265|\\\\bHEVC(\\\\b|\\\\d)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SQP - x265_HEVC"
+  },
+  {
+    "name": "SRLS",
+    "pattern": "\\b(SRLS)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SRLS"
+  },
+  {
+    "name": "SRW",
+    "pattern": "\\b(SRW)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SRW"
+  },
+  {
+    "name": "SSA",
+    "pattern": "\\b(SSA)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SSA"
+  },
+  {
+    "name": "STRiFE",
+    "pattern": "\\[STRiFE\\]|-STRiFE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "STRiFE"
+  },
+  {
     "name": "STRiKES",
     "pattern": "(?<=^|[\\s.-])STRiKES\\b",
     "description": "",
@@ -5471,6 +9821,26 @@
     ],
     "tests": null,
     "_id": "STRiKES"
+  },
+  {
+    "name": "STUTTERSHIT",
+    "pattern": "^(STUTTERSHIT)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "STUTTERSHIT"
+  },
+  {
+    "name": "SUNSCREEN",
+    "pattern": "^(SUNSCREEN)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SUNSCREEN"
   },
   {
     "name": "SURCODE",
@@ -5513,6 +9883,66 @@
     "_id": "SaNcTi"
   },
   {
+    "name": "Saizen",
+    "pattern": "\\b(Saizen)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Saizen"
+  },
+  {
+    "name": "Salieri",
+    "pattern": "\\b(Salieri)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Salieri"
+  },
+  {
+    "name": "SallySubs",
+    "pattern": "\\b(SallySubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SallySubs"
+  },
+  {
+    "name": "Samir755",
+    "pattern": "\\b(Samir755)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Samir755"
+  },
+  {
+    "name": "SanKyuu",
+    "pattern": "\\b(SanKyuu)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SanKyuu"
+  },
+  {
+    "name": "SasukeducK",
+    "pattern": "^(SasukeducK)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SasukeducK"
+  },
+  {
     "name": "SbR",
     "pattern": "(?<=^|[\\s.-])SbR\\b",
     "description": "",
@@ -5531,6 +9961,96 @@
     "_id": "Scene"
   },
   {
+    "name": "Scriptum",
+    "pattern": "\\b(Scriptum)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Scriptum"
+  },
+  {
+    "name": "Scryous-Raws",
+    "pattern": "Scryous[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Scryous-Raws"
+  },
+  {
+    "name": "Seicher-Raws",
+    "pattern": "Seicher[ ._-]?(Raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Seicher-Raws"
+  },
+  {
+    "name": "Senjou",
+    "pattern": "\\[Senjou\\]|-Senjou\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Senjou"
+  },
+  {
+    "name": "Setsugen",
+    "pattern": "\\b(Setsugen)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Setsugen"
+  },
+  {
+    "name": "ShadyCrab",
+    "pattern": "\\b(ShadyCrab)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ShadyCrab"
+  },
+  {
+    "name": "ShieldBearer",
+    "pattern": "^(ShieldBearer)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ShieldBearer"
+  },
+  {
+    "name": "Shimatta",
+    "pattern": "\\b(Shimatta)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Shimatta"
+  },
+  {
+    "name": "ShowY",
+    "pattern": "\\b(ShowY)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ShowY"
+  },
+  {
     "name": "SiC",
     "pattern": "(?<=^|[\\s.-])SiC\\b",
     "description": "",
@@ -5539,6 +10059,16 @@
     ],
     "tests": [],
     "_id": "SiC"
+  },
+  {
+    "name": "SiCFoI",
+    "pattern": "^(SiCFoI)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SiCFoI"
   },
   {
     "name": "SiGLA",
@@ -5611,6 +10141,46 @@
     "_id": "Sing Along"
   },
   {
+    "name": "Slyfox",
+    "pattern": "\\b(Slyfox)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Slyfox"
+  },
+  {
+    "name": "Smoke",
+    "pattern": "\\[Smoke\\]|-Smoke\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Smoke"
+  },
+  {
+    "name": "SmugCat",
+    "pattern": "\\b(SmugCat)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SmugCat"
+  },
+  {
+    "name": "SoLCE",
+    "pattern": "\\b(SoLCE)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SoLCE"
+  },
+  {
     "name": "SoLaR",
     "pattern": "(?<=^|[\\s.-])SoLaR\\b",
     "description": "",
@@ -5619,6 +10189,26 @@
     ],
     "tests": null,
     "_id": "SoLaR"
+  },
+  {
+    "name": "Soldado",
+    "pattern": "\\[Soldado\\]|-Soldado\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Soldado"
+  },
+  {
+    "name": "Spark",
+    "pattern": "\\[Spark\\]|-Spark\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Spark"
   },
   {
     "name": "Special Edition",
@@ -5992,6 +10582,67 @@
     "_id": "Special Edition"
   },
   {
+    "name": "Spirale",
+    "pattern": "\\b(Spirale)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Spirale"
+  },
+  {
+    "name": "Stereo",
+    "pattern": "(?<!repac)[^0-9]2[ .]0\\\\b|\\\\bStereo\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group",
+      "Audio"
+    ],
+    "tests": [],
+    "_id": "Stereo"
+  },
+  {
+    "name": "StrayGods",
+    "pattern": "\\b(StrayGods)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "StrayGods"
+  },
+  {
+    "name": "SubsPlease",
+    "pattern": "\\b(SubsPlease)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SubsPlease"
+  },
+  {
+    "name": "SubsPlus+",
+    "pattern": "\\b(SubsPlus\\+?)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SubsPlus+"
+  },
+  {
+    "name": "Suki Desu",
+    "pattern": "\\[Suki[ .-]?Desu\\]|-Suki[ .-]?Desu\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Suki_Desu"
+  },
+  {
     "name": "SumVision",
     "pattern": "(?<=^|[\\s.-])SumVision\\b",
     "description": "",
@@ -6000,6 +10651,46 @@
     ],
     "tests": null,
     "_id": "SumVision"
+  },
+  {
+    "name": "Sushi",
+    "pattern": "\\[Sushi\\]|-Sushi\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Sushi"
+  },
+  {
+    "name": "SwAgLaNdEr",
+    "pattern": "^(SwAgLaNdEr)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SwAgLaNdEr"
+  },
+  {
+    "name": "T4H",
+    "pattern": "^(T4H)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "T4H"
+  },
+  {
+    "name": "T6D",
+    "pattern": "^(T6D)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "T6D"
   },
   {
     "name": "TBB",
@@ -6012,6 +10703,16 @@
     "_id": "TBB"
   },
   {
+    "name": "TBS",
+    "pattern": "^(TBS)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TBS"
+  },
+  {
     "name": "TDD",
     "pattern": "(?<=^|[\\s.-])TDD\\b",
     "description": "",
@@ -6020,6 +10721,26 @@
     ],
     "tests": [],
     "_id": "TDD"
+  },
+  {
+    "name": "TEKNO3D",
+    "pattern": "\\\\b(TEKNO3D)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TEKNO3D"
+  },
+  {
+    "name": "TENEIGHTY",
+    "pattern": "\\b(TENEIGHTY)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TENEIGHTY"
   },
   {
     "name": "TEPES",
@@ -6042,6 +10763,16 @@
     "_id": "TERMiNAL"
   },
   {
+    "name": "THORA",
+    "pattern": "\\b(THORA)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "THORA"
+  },
+  {
     "name": "THREESOME",
     "pattern": "(?<=^|[\\s.-])THREESOME\\b",
     "description": "",
@@ -6052,6 +10783,16 @@
     "_id": "THREESOME"
   },
   {
+    "name": "TIKO",
+    "pattern": "^(TIKO)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TIKO"
+  },
+  {
     "name": "TOMBCRUISE",
     "pattern": "(?<=^|[\\s.-])TOMBCRUISE\\b",
     "description": "",
@@ -6060,6 +10801,46 @@
     ],
     "tests": null,
     "_id": "TOMBCRUISE"
+  },
+  {
+    "name": "TOMMY",
+    "pattern": "^(TOMMY)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TOMMY"
+  },
+  {
+    "name": "TOPKEK",
+    "pattern": "\\b(TOPKEK)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TOPKEK"
+  },
+  {
+    "name": "TRiToN",
+    "pattern": "^(TRiToN)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TRiToN"
+  },
+  {
+    "name": "TTGA",
+    "pattern": "\\b(TTGA)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TTGA"
   },
   {
     "name": "TUSAHD",
@@ -6083,7 +10864,17 @@
     "_id": "TVING"
   },
   {
-    "name": "TayTo",
+    "name": "TVSmash",
+    "pattern": "^(TVSmash)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TVSmash"
+  },
+  {
+    "name": "TayTO",
     "pattern": "(?<=^|[\\s.-])TayTo\\b",
     "description": "",
     "tags": [
@@ -6091,6 +10882,46 @@
     ],
     "tests": [],
     "_id": "TayTo"
+  },
+  {
+    "name": "TeamTurquoize",
+    "pattern": "\\b(TeamTurquoize)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TeamTurquoize"
+  },
+  {
+    "name": "TeeWee",
+    "pattern": "\\\\b(TeeWee)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TeeWee"
+  },
+  {
+    "name": "Tenrai Sensei",
+    "pattern": "\\b(Tenrai[ .-]?Sensei)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Tenrai_Sensei"
+  },
+  {
+    "name": "Tenshi",
+    "pattern": "\\[tenshi\\]|-tenshi$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Tenshi"
   },
   {
     "name": "ThD",
@@ -6160,6 +10991,16 @@
     "_id": "Theatrical Edition"
   },
   {
+    "name": "Thighs",
+    "pattern": "\\[Thighs\\]|-Thighs\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Thighs"
+  },
+  {
     "name": "Tigole",
     "pattern": "(?<=^|[\\s.-])Tigole\\b",
     "description": "",
@@ -6170,6 +11011,16 @@
     "_id": "Tigole"
   },
   {
+    "name": "TnF",
+    "pattern": "\\b(TnF)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TnF"
+  },
+  {
     "name": "TnP",
     "pattern": "(?<=^|[\\s.-])TnP\\b",
     "description": "",
@@ -6178,6 +11029,16 @@
     ],
     "tests": null,
     "_id": "TnP"
+  },
+  {
+    "name": "Trix",
+    "pattern": "\\[Trix\\]|-Trix\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Trix"
   },
   {
     "name": "Tron",
@@ -6209,6 +11070,36 @@
     ],
     "tests": [],
     "_id": "TrueHD"
+  },
+  {
+    "name": "Tsundere",
+    "pattern": "\\[Tsundere\\]|-Tsundere(?!-)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Tsundere"
+  },
+  {
+    "name": "U3-Web",
+    "pattern": "\\b(U3-Web)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "U3-Web"
+  },
+  {
+    "name": "UDF",
+    "pattern": "\\b(UDF)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "UDF"
   },
   {
     "name": "UHD Blu-ray",
@@ -6275,6 +11166,16 @@
     "_id": "ULTRAHDCLUB"
   },
   {
+    "name": "UNBIASED",
+    "pattern": "\\[UNBIASED\\]|-UNBIASED\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "UNBIASED"
+  },
+  {
     "name": "UNK",
     "pattern": "(?<=^|[\\s.-])UNK\\b",
     "description": "",
@@ -6283,6 +11184,36 @@
     ],
     "tests": null,
     "_id": "UNK"
+  },
+  {
+    "name": "URANIME",
+    "pattern": "\\b(URANIME)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "URANIME"
+  },
+  {
+    "name": "USD",
+    "pattern": "\\[USD\\]|-USD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "USD"
+  },
+  {
+    "name": "UWU",
+    "pattern": "\\b(UWU)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "UWU"
   },
   {
     "name": "Upscaled",
@@ -6497,6 +11428,46 @@
     "_id": "VALiS"
   },
   {
+    "name": "VARYG",
+    "pattern": "\\b(VARYG)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "VARYG"
+  },
+  {
+    "name": "VD0N",
+    "pattern": "^(VD0N)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "VD0N"
+  },
+  {
+    "name": "VECTOR",
+    "pattern": "^(VECTOR)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "VECTOR"
+  },
+  {
+    "name": "VISIONPLUSHDR",
+    "pattern": "^(VISIONPLUSHDR(-X|1000)?)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "VISIONPLUSHDR"
+  },
+  {
     "name": "VLAD",
     "pattern": "(?<=^|[\\s.-])VLAD\\b",
     "description": "",
@@ -6531,6 +11502,26 @@
     "_id": "VVC"
   },
   {
+    "name": "Valenciano",
+    "pattern": "\\b(Valenciano)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Valenciano"
+  },
+  {
+    "name": "Vanilla",
+    "pattern": "\\[Vanilla\\]|-Vanilla\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Vanilla"
+  },
+  {
     "name": "Verus",
     "pattern": "(?<=^|[\\s.-])Verus\\b",
     "description": "",
@@ -6539,6 +11530,26 @@
     ],
     "tests": null,
     "_id": "Verus"
+  },
+  {
+    "name": "ViSUM",
+    "pattern": "^(ViSUM)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ViSUM"
+  },
+  {
+    "name": "ViSiON",
+    "pattern": "^(ViSiON)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ViSiON"
   },
   {
     "name": "VietHD",
@@ -6562,6 +11573,16 @@
     "_id": "Viki"
   },
   {
+    "name": "VipapkStudios",
+    "pattern": "\\b(VipapkStudios)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "VipapkStudios"
+  },
+  {
     "name": "Viu",
     "pattern": "\\b(Viu)\\b",
     "description": "Viu is a Hong Kong-based over-the-top video on demand streaming service from PCCW Media Group's Viu International Ltd. Viu delivers content in different genres from Asia's top content providers with local language subtitles",
@@ -6571,6 +11592,26 @@
       "WEBRip"
     ],
     "_id": "Viu"
+  },
+  {
+    "name": "Vivid",
+    "pattern": "\\[Vivid\\]|-Vivid\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Vivid"
+  },
+  {
+    "name": "Vodes",
+    "pattern": "\\[Vodes\\]|(?<!Not)-Vodes\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Vodes"
   },
   {
     "name": "W4NK3R",
@@ -6583,6 +11624,16 @@
     "_id": "W4NK3R"
   },
   {
+    "name": "WAF",
+    "pattern": "^(WAF)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "WAF"
+  },
+  {
     "name": "WATCHABLE",
     "pattern": "(?<=^|[\\s.-])WATCHABLE\\b",
     "description": "",
@@ -6591,6 +11642,36 @@
     ],
     "tests": null,
     "_id": "WATCHABLE"
+  },
+  {
+    "name": "WBDP",
+    "pattern": "\\b(WBDP)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WBDP"
+  },
+  {
+    "name": "WEBDV",
+    "pattern": "^(WEBDV)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WEBDV"
+  },
+  {
+    "name": "WELP",
+    "pattern": "^(WELP)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WELP"
   },
   {
     "name": "WMING",
@@ -6611,6 +11692,46 @@
     ],
     "tests": null,
     "_id": "WOU"
+  },
+  {
+    "name": "WSE",
+    "pattern": "\\b(WSE)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WSE"
+  },
+  {
+    "name": "WaLMaRT",
+    "pattern": "\\b(WaLMaRT)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WaLMaRT"
+  },
+  {
+    "name": "Wardevil",
+    "pattern": "\\[Wardevil\\]|-Wardevil\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Wardevil"
+  },
+  {
+    "name": "Watashi",
+    "pattern": "\\[Watashi\\]|-Watashi\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Watashi"
   },
   {
     "name": "Wavve",
@@ -6655,8 +11776,28 @@
     "_id": "WiKi"
   },
   {
+    "name": "Will1869",
+    "pattern": "\\\\b(Will1869)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Will1869"
+  },
+  {
+    "name": "WtF Anime",
+    "pattern": "\\b(WtF[ ._-]?Anime)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "WtF_Anime"
+  },
+  {
     "name": "XEBEC",
-    "pattern": "(?<=^|[\\s.-])XEBEC\\b",
+    "pattern": "^(XEBEC|4KBEC|CEBEX)$",
     "description": "",
     "tags": [
       "Release Group"
@@ -6702,6 +11843,124 @@
     "_id": "Xvid"
   },
   {
+    "name": "YIFY",
+    "pattern": "^(YIFY)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "YIFY"
+  },
+  {
+    "name": "YTS",
+    "pattern": "^(YTS(.(MX|LT|AG))?)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "YTS"
+  },
+  {
+    "name": "YURI",
+    "pattern": "\\[YURI\\]|-YURI\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "YURI"
+  },
+  {
+    "name": "Yabai",
+    "pattern": "\\[Yabai\\]|-Yabai\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Yabai"
+  },
+  {
+    "name": "Yabai_Desu_NeRandomRemux",
+    "pattern": "\\b(Yabai_Desu_NeRandomRemux)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Yabai_Desu_NeRandomRemux"
+  },
+  {
+    "name": "YakuboEncodes",
+    "pattern": "\\b(YakuboEncodes)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "YakuboEncodes"
+  },
+  {
+    "name": "Yameii",
+    "pattern": "\\[Yameii\\]|-Yameii\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "Yameii"
+  },
+  {
+    "name": "Yoghurt",
+    "pattern": "\\b(Yoghurt)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Yoghurt"
+  },
+  {
+    "name": "YuiSubs",
+    "pattern": "\\b(YuiSubs)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "YuiSubs"
+  },
+  {
+    "name": "Yuki",
+    "pattern": "\\[Yuki\\]|-Yuki\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Yuki"
+  },
+  {
+    "name": "Yun",
+    "pattern": "\\[Yun\\]|-Yun\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Yun"
+  },
+  {
+    "name": "Z4ST1N",
+    "pattern": "\\b(Z4ST1N)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Z4ST1N"
+  },
+  {
     "name": "ZIMBO",
     "pattern": "(?<=^|[\\s.-])ZIMBO\\b",
     "description": "",
@@ -6710,6 +11969,16 @@
     ],
     "tests": [],
     "_id": "ZIMBO"
+  },
+  {
+    "name": "ZOIO",
+    "pattern": "\\b(ZOIO)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ZOIO"
   },
   {
     "name": "ZQ",
@@ -6722,6 +11991,46 @@
     "_id": "ZQ"
   },
   {
+    "name": "ZR",
+    "pattern": "\\b(ZR)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ZR"
+  },
+  {
+    "name": "ZeroBuild",
+    "pattern": "\\b(ZeroBuild)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ZeroBuild"
+  },
+  {
+    "name": "Zeus",
+    "pattern": "^(Zeus)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Zeus"
+  },
+  {
+    "name": "ZigZag",
+    "pattern": "\\[ZigZag\\]|-ZigZab\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ZigZag"
+  },
+  {
     "name": "ZoroSenpai",
     "pattern": "(?<=^|[\\s.-])ZoroSenpai\\b",
     "description": "",
@@ -6730,6 +12039,36 @@
     ],
     "tests": [],
     "_id": "ZoroSenpai"
+  },
+  {
+    "name": "Zurako",
+    "pattern": "\\b(Zurako)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "Zurako"
+  },
+  {
+    "name": "aXXo",
+    "pattern": "^(aXXo)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "aXXo"
+  },
+  {
+    "name": "aro",
+    "pattern": "\\b(aro)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "aro"
   },
   {
     "name": "b0mbardiers",
@@ -6750,6 +12089,16 @@
     ],
     "tests": null,
     "_id": "beAst"
+  },
+  {
+    "name": "bonkai77",
+    "pattern": "\\b(bonkai77)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "bonkai77"
   },
   {
     "name": "c0kE",
@@ -6783,7 +12132,7 @@
   },
   {
     "name": "dB",
-    "pattern": "(?<=^|[\\s.-])dB\\b",
+    "pattern": "^(dB)$",
     "description": "",
     "tags": [
       "Release Group"
@@ -6800,6 +12149,16 @@
     ],
     "tests": [],
     "_id": "de(42)"
+  },
+  {
+    "name": "deanzel",
+    "pattern": "\\b(deanzel)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "deanzel"
   },
   {
     "name": "decibeL",
@@ -6937,6 +12296,16 @@
     "_id": "hallowed"
   },
   {
+    "name": "hchcsen",
+    "pattern": "\\b(hchcsen)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "hchcsen"
+  },
+  {
     "name": "hdalx",
     "pattern": "(?<=^|[\\s.-])hdalx\\b",
     "description": "",
@@ -6945,6 +12314,36 @@
     ],
     "tests": [],
     "_id": "hdalx"
+  },
+  {
+    "name": "hi10p",
+    "pattern": "hi10p",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "hi10p"
+  },
+  {
+    "name": "hydes",
+    "pattern": "\\b(hydes)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "hydes"
+  },
+  {
+    "name": "iAHD",
+    "pattern": "\\b(iAHD)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iAHD"
   },
   {
     "name": "iCandy",
@@ -6965,6 +12364,46 @@
     ],
     "tests": [],
     "_id": "iFT"
+  },
+  {
+    "name": "iJP",
+    "pattern": "^(iJP)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iJP"
+  },
+  {
+    "name": "iKA",
+    "pattern": "^(iKA)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iKA"
+  },
+  {
+    "name": "iKaos",
+    "pattern": "\\b(iKaos)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iKaos"
+  },
+  {
+    "name": "iNTENSO",
+    "pattern": "^(iNTENSO)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "iNTENSO"
   },
   {
     "name": "iNVANDRAREN",
@@ -7046,6 +12485,26 @@
     "_id": "iPT Internals"
   },
   {
+    "name": "iPUNISHER",
+    "pattern": "\\b(iPUNISHER)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iPUNISHER"
+  },
+  {
+    "name": "iPlanet",
+    "pattern": "^(iPlanet)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "iPlanet"
+  },
+  {
     "name": "iQIYI",
     "pattern": "\\b(iQIYI)\\b",
     "description": "iQIYI is a Chinese subscription video on-demand over-the-top streaming service owned by Baidu. Headquartered in Beijing, iQIYI primarily produces and distributes films and television series.",
@@ -7055,6 +12514,16 @@
       "WEBRip"
     ],
     "_id": "iQIYI"
+  },
+  {
+    "name": "iT00NZ",
+    "pattern": "^(iT00NZ)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "iT00NZ"
   },
   {
     "name": "iTunes",
@@ -7138,6 +12607,36 @@
     "_id": "iTunes"
   },
   {
+    "name": "iVy",
+    "pattern": "^(iVy)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "iVy"
+  },
+  {
+    "name": "inid4c",
+    "pattern": "\\b(inid4c)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "inid4c"
+  },
+  {
+    "name": "jennaortega",
+    "pattern": "(?<!-)\\\\b(jennaortega(UHD)?)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "jennaortega"
+  },
+  {
     "name": "k00kie",
     "pattern": "(?<=^|[\\s.-])k00kie\\b",
     "description": "",
@@ -7148,6 +12647,56 @@
     "_id": "k00kie"
   },
   {
+    "name": "kBaraka",
+    "pattern": "\\b(kBaraka)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "kBaraka"
+  },
+  {
+    "name": "karios",
+    "pattern": "\\b(karios)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "karios"
+  },
+  {
+    "name": "km",
+    "pattern": "\\[km\\]|-km\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "km"
+  },
+  {
+    "name": "kmplx",
+    "pattern": "\\b(kmplx)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "kmplx"
+  },
+  {
+    "name": "kuchikirukia",
+    "pattern": "\\b(kuchikirukia)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "kuchikirukia"
+  },
+  {
     "name": "luvBB",
     "pattern": "(?<=^|[\\s.-])luvBB\\b",
     "description": "",
@@ -7156,6 +12705,46 @@
     ],
     "tests": [],
     "_id": "luvBB"
+  },
+  {
+    "name": "mHD",
+    "pattern": "^(mHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "mHD"
+  },
+  {
+    "name": "mSD",
+    "pattern": "^(mSD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "mSD"
+  },
+  {
+    "name": "mal lu zen",
+    "pattern": "\\b(mal[ .-]lu[ .-]zen)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "mal-lu-zen"
+  },
+  {
+    "name": "mdcx",
+    "pattern": "\\b(mdcx)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "mdcx"
   },
   {
     "name": "micius",
@@ -7205,6 +12794,86 @@
     "_id": "mkv"
   },
   {
+    "name": "monkee",
+    "pattern": "^(monkee)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "monkee"
+  },
+  {
+    "name": "mottoj",
+    "pattern": "\\b(mottoj)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "mottoj"
+  },
+  {
+    "name": "nHD",
+    "pattern": "^(nHD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "nHD"
+  },
+  {
+    "name": "nSD",
+    "pattern": "^(nSD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "nSD"
+  },
+  {
+    "name": "neko-raws",
+    "pattern": "neko[ ._-]?(raws)",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "neko-raws"
+  },
+  {
+    "name": "neoHEVC",
+    "pattern": "\\b(neoHEVC)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "neoHEVC"
+  },
+  {
+    "name": "niizk",
+    "pattern": "\\b(niizk)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "niizk"
+  },
+  {
+    "name": "nikt0",
+    "pattern": "^(nikt0)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "nikt0"
+  },
+  {
     "name": "nmd",
     "pattern": "(?<=^|[\\s.-])nmd\\b",
     "description": "",
@@ -7213,6 +12882,56 @@
     ],
     "tests": [],
     "_id": "nmd"
+  },
+  {
+    "name": "orbitron",
+    "pattern": "^(orbitron)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "orbitron"
+  },
+  {
+    "name": "orz",
+    "pattern": "\\b(orz)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "orz"
+  },
+  {
+    "name": "peachflavored",
+    "pattern": "\\b(peachflavored)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "peachflavored"
+  },
+  {
+    "name": "phazer11",
+    "pattern": "\\b(phazer11)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "phazer11"
+  },
+  {
+    "name": "playBD",
+    "pattern": "^(playBD)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "playBD"
   },
   {
     "name": "playHD",
@@ -7235,6 +12954,26 @@
     "_id": "playWEB"
   },
   {
+    "name": "pog42",
+    "pattern": "\\b(pog42)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "pog42"
+  },
+  {
+    "name": "pyroneko",
+    "pattern": "\\b(pyroneko)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "pyroneko"
+  },
+  {
     "name": "rightSIZE",
     "pattern": "(?<=^|[\\s.-])rightSIZE\\b",
     "description": "",
@@ -7253,6 +12992,114 @@
     ],
     "tests": [],
     "_id": "rttr"
+  },
+  {
+    "name": "sam",
+    "pattern": "\\[sam\\]|-sam\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "sam"
+  },
+  {
+    "name": "sekkusu&ok",
+    "pattern": "\\b(sekkusu&ok)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "sekkusu&ok"
+  },
+  {
+    "name": "smol",
+    "pattern": "\\[smol\\]|-smol\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "smol"
+  },
+  {
+    "name": "tarunk9c",
+    "pattern": "^(tarunk9c)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "tarunk9c"
+  },
+  {
+    "name": "torenter69",
+    "pattern": "\\b(torenter69)\\b",
+    "description": "",
+    "tags": [],
+    "tests": [],
+    "_id": "torenter69"
+  },
+  {
+    "name": "v0",
+    "pattern": "(\\\\b|\\\\d)(v0)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "v0"
+  },
+  {
+    "name": "v1",
+    "pattern": "(\\\\b|\\\\d)(v1)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "v1"
+  },
+  {
+    "name": "v2",
+    "pattern": "(\\\\b|\\\\d)(v2)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "v2"
+  },
+  {
+    "name": "v3",
+    "pattern": "(\\\\b|\\\\d)(v3)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "v3"
+  },
+  {
+    "name": "v4",
+    "pattern": "(\\\\b|\\\\d)(v4)\\\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "v4"
+  },
+  {
+    "name": "x0r",
+    "pattern": "^(x0r)$",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "x0r"
   },
   {
     "name": "x264",
@@ -7423,6 +13270,16 @@
     "_id": "x265"
   },
   {
+    "name": "xPearse",
+    "pattern": "\\b(xPearse)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "xPearse"
+  },
+  {
     "name": "xander",
     "pattern": "(?<=^|[\\s.-])xander\\b",
     "description": "",
@@ -7431,5 +13288,35 @@
     ],
     "tests": [],
     "_id": "xander"
+  },
+  {
+    "name": "xiao-av1",
+    "pattern": "\\b(xiao-av1)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "xiao-av1"
+  },
+  {
+    "name": "youshikibi",
+    "pattern": "\\b(youshikibi)\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "youshikibi"
+  },
+  {
+    "name": "zza",
+    "pattern": "\\[zza\\]|-zza\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "zza"
   }
 ]
