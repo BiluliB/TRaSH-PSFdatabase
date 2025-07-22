@@ -1,4 +1,4 @@
-name: German Microsized
+name: TRaSH German Microsized
 description: "Matches German release groups known for extremely small file sizes"
 conditions:
 - name: FuN

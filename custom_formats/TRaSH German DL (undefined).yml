@@ -1,4 +1,4 @@
-name: German DL (undefined)
+name: TRaSH German DL (undefined)
 description: "Matches German dual/multi-language releases with DL or ML tags"
 conditions:
 - name: NOT Original Language

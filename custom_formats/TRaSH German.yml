@@ -1,4 +1,4 @@
-name: German
+name: TRaSH German
 description: "Matches German language releases excluding dual/multi-language and subbed versions"
 conditions:
 - name: German

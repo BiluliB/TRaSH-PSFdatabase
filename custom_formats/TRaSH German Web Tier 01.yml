@@ -1,4 +1,4 @@
-name: German Web Tier 01
+name: TRaSH German Web Tier 01
 description: "Top-tier German web release groups for streaming/web content"
 conditions:
 - name: ZeroTwo
