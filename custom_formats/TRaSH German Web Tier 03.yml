@@ -1,4 +1,4 @@
-name: German Web Tier 03
+name: TRaSH German Web Tier 03
 description: "Third-tier German web release groups for streaming/web content"
 conditions:
 - name: RobertDeNiro

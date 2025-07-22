@@ -1,4 +1,4 @@
-name: German LQ (release title)
+name: TRaSH German LQ (release title)
 description: "Matches low-quality German releases with specific problematic patterns"
 conditions:
 - name: TVS iTunesHD

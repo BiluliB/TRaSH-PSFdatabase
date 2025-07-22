@@ -1,4 +1,4 @@
-name: German DL 2
+name: TRaSH German DL 2
 description: "Matches German-English dual audio releases without DL tags in title"
 conditions:
 - name: NOT German DL

@@ -1,4 +1,4 @@
-name: German LQ
+name: TRaSH German LQ
 description: "Blacklist of low-quality German release groups to avoid"
 conditions:
 - name: PsO
